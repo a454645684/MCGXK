@@ -1,0 +1,36 @@
+{
+	id: "2219BB06ED439B3A"
+	loot_crate: {
+		color: 16761159
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "legendary"
+	}
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ item: "arsomega:ring_arcane_discount" }
+		{ item: "arsomega:demonic_gem_block" }
+		{ count: 32, item: "ars_nouveau:source_jar" }
+		{ count: 2, item: "occultism:storage_stabilizer_tier2" }
+		{ count: 6, item: "occultism:iesnium_ingot" }
+		{ count: 32, item: "occultism:spirit_attuned_gem" }
+		{ count: 64, item: "industrialforegoing:plastic" }
+		{ count: 6, item: "industrialforegoing:pink_slime_ingot" }
+		{ count: 2, item: "industrialforegoing:supreme_black_hole_tank" }
+		{ count: 4, item: "mekanism:ingot_refined_obsidian" }
+		{ count: 16, item: "mekanism:upgrade_speed" }
+		{ count: 16, item: "mekanism:upgrade_energy" }
+		{ count: 8, item: "rftoolsdim:rare_essence" }
+		{ item: "rftoolsdim:legendary_lost_knowledge" }
+		{ item: "rftoolsutility:environmental_controller" }
+		{ item: "mysticalagriculture:supremium_block" }
+		{ item: "mysticalagradditions:awakened_supremium_paxel" }
+		{ count: 32, item: "powah:crystal_nitro" }
+	]
+	title: "Legendary"
+}

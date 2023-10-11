@@ -1,0 +1,91 @@
+{
+	id: "65142AFD9A0C6567"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ item: "artifacts:pocket_piston" }
+		{ item: "artifacts:umbrella" }
+		{ item: "artifacts:novelty_drinking_hat" }
+		{ item: "artifacts:crystal_heart" }
+		{ item: "artifacts:villager_hat" }
+		{ item: "gobber2:gobber2_ring_repair" }
+		{ item: "tombstone:christmas_hat" }
+		{ item: "dankstorage:dank_7" }
+		{ item: "skilltree:wisdom_scroll" }
+		{ item: "artifacts:everlasting_beef" }
+		{ item: "artifacts:cross_necklace" }
+		{
+			item: {
+				Count: 1b
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/saturation"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/luck"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/speed"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/bonemealer"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/regeneration"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/fire_resistance"
+					}]
+				}
+			}
+		}
+	]
+	title: "Artifact"
+}

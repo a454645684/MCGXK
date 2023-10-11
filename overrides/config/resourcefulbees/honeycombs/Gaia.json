@@ -1,0 +1,15 @@
+{
+    "honeycomb": {
+      "color": "#d4006b",
+      "edible": true,
+      "block": true,
+      "tradeData": {}
+    },
+    "variations": [
+      {
+        "identifier": "Gaia",
+        "defaultComb": {"id":  "resourcefulbees:gaia_honeycomb"},
+        "defaultCombBlock": {"id":  "resourcefulbees:gaia_honeycomb_block"}
+      }
+    ]
+  }

@@ -1,0 +1,15 @@
+{
+  "_comment": "The runic energy that contains in items (aka their costs in element weaver.)",
+  "minecraft:dirt": {
+    "tera": 1.0
+  },
+  "minecraft:iron_ingot": {
+    "ardo": 20.0,
+    "fira": 10.0
+  },
+  "minecraft:gold_ingot": {
+    "ardo": 20.0,
+    "fira": 10.0,
+    "kelda": 10.0
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Occultist",
+    "type": "resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "occultism:iesnium_ingot"
+    },
+    "color": "a7c5f9",
+    "recipes": {
+    "crafting": false, 
+    "infusion": false
+  },
+  "crux": "occultism:iesnium_block"
+}

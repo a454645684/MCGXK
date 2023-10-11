@@ -1,0 +1,662 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forbidden_and_arcanus"
+	group: "3C974839A5FB71B8"
+	icon: "forbidden_arcanus:arcane_crystal"
+	id: "7DAE0912A85164A7"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1E12DE58CDDDC932"]
+			description: [
+				"I hope you’re prepared to go end hunting or murdering the dragon repeatedly and the wither too. This is more of a decoration and utility mod than actual magic. "
+				"Plains biomes for cherry trees, and flower forests for mysterywood trees. Edelwood has no leaves or saplings but the logs are so worth it, in dark forests. Let the mysterywood leaves despawn NATURALLY, they drop golden apples! Don’t forget the yellow orchids from the flower forest!"
+			]
+			id: "03436DE1D931968A"
+			rewards: [
+				{
+					id: "3B1410BCDC2EBF24"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2D1483BC2BBEEFC7"
+					item: "forbidden_arcanus:golden_orchid_seeds"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BD0CFBCF814900E"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "78FB1ABC6757386B"
+					item: "forbidden_arcanus:edelwood_log"
+					type: "item"
+				}
+				{
+					id: "670232D34B49357C"
+					item: "forbidden_arcanus:yellow_orchid"
+					type: "item"
+				}
+				{
+					id: "10292F90801D0188"
+					item: "forbidden_arcanus:cherry_sapling"
+					type: "item"
+				}
+				{
+					id: "22DC36AF28314F08"
+					item: "forbidden_arcanus:growing_edelwood"
+					type: "item"
+				}
+			]
+			title: "Forbidden and Arcanus - Plant Hunt"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["03436DE1D931968A"]
+			description: ["Collect these ores,  you'll need them. Caution, stellarite explodes when mined!"]
+			icon: "forbidden_arcanus:xpetrified_orb"
+			id: "00E478AA3D7C64E3"
+			rewards: [
+				{
+					count: 16
+					id: "4252BA99DD1A7798"
+					item: "forbidden_arcanus:xpetrified_orb"
+					type: "item"
+				}
+				{
+					id: "2528A562C6D2648A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0ED7E1B63CEFB136"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "713E31175AA9189B"
+					item: "forbidden_arcanus:arcane_crystal"
+					type: "item"
+				}
+				{
+					id: "1CCEA845B5BDEBD3"
+					item: "forbidden_arcanus:xpetrified_orb"
+					type: "item"
+				}
+				{
+					id: "54C3F3A21305471C"
+					item: "forbidden_arcanus:stellarite_piece"
+					type: "item"
+				}
+				{
+					id: "63ECA12CED6D23A6"
+					item: "forbidden_arcanus:rune"
+					type: "item"
+				}
+				{
+					id: "4F99D406C5E89C13"
+					item: "forbidden_arcanus:dark_rune"
+					type: "item"
+				}
+			]
+			title: "Orespawn? "
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00E478AA3D7C64E3"]
+			description: ["Mundabitur dust, corrupti dust, arcane crystal dust. Very important dust, yes. "]
+			id: "201A4714F2CBE385"
+			rewards: [
+				{
+					id: "580613A50D523FF9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "753D18FD05DA64FB"
+					item: "tombstone:dust_of_vanishing"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "401F68EF01C928BC"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2E3BE288E645ED08"
+					item: "forbidden_arcanus:arcane_crystal_dust"
+					type: "item"
+				}
+				{
+					id: "0AB9A9B70F8D9270"
+					item: "forbidden_arcanus:mundabitur_dust"
+					type: "item"
+				}
+				{
+					id: "6929E383F8E0384F"
+					item: "forbidden_arcanus:corrupti_dust"
+					type: "item"
+				}
+			]
+			title: "Dusting the Shelves"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["201A4714F2CBE385"]
+			description: [""]
+			id: "2B299C8A04D83DE1"
+			rewards: [
+				{
+					id: "4D88D7EB30A8E781"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60E8296D1ED304E8"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "23B0791D235E0B53"
+				item: "forbidden_arcanus:deorum_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B299C8A04D83DE1"]
+			description: ["Create obsidian with iron using iron nuggets around a block of obsidian on the cardinal directions, and smelt it for an obsidian ingot. This is a major ingredient in this mod. "]
+			id: "2196B532B3253599"
+			rewards: [
+				{
+					count: 4
+					id: "7D79EE6EB3CA194E"
+					item: "forbidden_arcanus:obsidian_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "228BDD270C56F8B3"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5B3DDEC5F3A8BCEB"
+					item: "forbidden_arcanus:obsidian_ingot"
+					type: "item"
+				}
+				{
+					id: "6C67F18C407391B0"
+					item: "forbidden_arcanus:obsidian_with_iron"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2196B532B3253599"]
+			description: ["Craft a skull, and upgrade it for the obsidian skull. Keep it in your inventory for constant fire resistance for 30 seconds. It will start counting down if you are in fire damage. If you craft it into a obsidian skull shield, you get resistance and fire resistance for 30 seconds. Blazes got nothin’ on you now. Right?"]
+			id: "28C991F54E411FFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C28CBDB533803C9"
+				table_id: 8453540496955162906L
+				type: "random"
+			}]
+			subtitle: "Until the Fire Nation attacked..."
+			tasks: [
+				{
+					id: "4CC6B6391763A499"
+					item: "forbidden_arcanus:obsidian_skull"
+					type: "item"
+				}
+				{
+					id: "17A7996F5616A704"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:obsidian_skull_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The nether ain't got nothing on me!"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B299C8A04D83DE1"]
+			description: ["Smelt edelwood logs for dark matter. This is needed in other recipes. "]
+			id: "62F928485451ED41"
+			rewards: [
+				{
+					id: "30850630AA05D298"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6617F9E164DBD8D5"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			subtitle: "Anjelica grew up to be a dark mage. "
+			tasks: [{
+				id: "1618BD2E61BEE9DF"
+				item: "forbidden_arcanus:dark_matter"
+				type: "item"
+			}]
+			title: "Dark Matter for Babies"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62F928485451ED41"]
+			description: [
+				"Dragon scales are crafted by using a mystical dagger with a dragon head for three scales. Craft a mystical dagger, and get scales. "
+				"Hint: Look for those shipyards from Dungeons Arise, I heard rumor the runners a head hunters. "
+			]
+			icon: {
+				Count: 1b
+				id: "forbidden_arcanus:mystical_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "05C41CD3BEAA832D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "103F141BA67F05DD"
+				table_id: 8453540496955162906L
+				type: "random"
+			}]
+			tasks: [
+				{
+					count: 3L
+					id: "4A0ABD6B1DCC50C8"
+					item: "forbidden_arcanus:dragon_scale"
+					type: "item"
+				}
+				{
+					id: "25F2A57E70C38CD9"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:mystical_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7682A7D07FFEAFFA"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+			]
+			title: "Scales?"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["05C41CD3BEAA832D"]
+			description: [""]
+			icon: "forbidden_arcanus:golden_dragon_scale"
+			id: "2DAFF12AF12935C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11518FF4D08F7C24"
+				table_id: 8453540496955162906L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "73752D7CD4333F9E"
+					item: "forbidden_arcanus:golden_dragon_scale"
+					type: "item"
+				}
+				{
+					id: "47F03D136AC32499"
+					item: "forbidden_arcanus:silver_dragon_scale"
+					type: "item"
+				}
+				{
+					id: "6428FC9D71C0106C"
+					item: "forbidden_arcanus:aquatic_dragon_scale"
+					type: "item"
+				}
+			]
+			title: "Fancy Scales"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["03436DE1D931968A"]
+			description: ["Craft a soul extractor and get yourself some soul sand. This is how you obtain those white floaty souls, pull them out of the soul sand with your soul extractor. Leaves you with soulless sand, which makes some interesting sandstone blocks for decoration. "]
+			icon: "forbidden_arcanus:soul"
+			id: "154E50E00D92C5DE"
+			rewards: [
+				{
+					id: "1F5305A5D602302B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E722D2B6B5840B8"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "13ED479073A8BB02"
+					item: "forbidden_arcanus:soul"
+					type: "item"
+				}
+				{
+					id: "7DEA71BA57D30318"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:soul_extractor"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5979C0D0409EF596"
+					item: "forbidden_arcanus:soulless_sand"
+					type: "item"
+				}
+			]
+			title: "Ghostbusters!"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"201A4714F2CBE385"
+				"154E50E00D92C5DE"
+			]
+			description: [""]
+			id: "04593E5D11CCE455"
+			rewards: [
+				{
+					id: "549D758ACBFD022A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48F2183EAA574B2C"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "36B4FB936CCF7CD5"
+				item: "forbidden_arcanus:dark_matter"
+				type: "item"
+			}]
+			title: "Dark Souls 4"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2196B532B3253599"]
+			description: [""]
+			icon: "forbidden_arcanus:dark_nether_star"
+			id: "223E5A67A7A4CB7B"
+			rewards: [
+				{
+					id: "6FBC0840D97CAB24"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "009E8FC32BBA4897"
+					item: {
+						Count: 1b
+						id: "botania:cosmetic_questgiver_mark"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3382B9E9AB7DCA71"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "Dark Star Flex"
+			tasks: [
+				{
+					id: "58E9FCC90863E12D"
+					item: "forbidden_arcanus:dark_nether_star"
+					type: "item"
+				}
+				{
+					id: "0EAFB2401ECD3455"
+					item: "forbidden_arcanus:dark_nether_star_block"
+					type: "item"
+				}
+			]
+			title: "Death Star"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"223E5A67A7A4CB7B"
+				"04593E5D11CCE455"
+			]
+			description: [""]
+			id: "4E9C087BF950C0D9"
+			rewards: [
+				{
+					id: "412FA26220335C01"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1B3A01A86E87CE62"
+					item: {
+						Count: 1b
+						id: "evilcraft:spectral_glasses"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A7CE3E1E2F72AF9"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "682E9933475CE1EE"
+				item: {
+					Count: 1b
+					id: "forbidden_arcanus:spectral_eye_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00E478AA3D7C64E3"]
+			description: ["The recipe isn't so easy anymore. What will you pay to have an indestructible item now?"]
+			id: "719656BB522E5EE6"
+			rewards: [
+				{
+					id: "5EA07C3014A04EAB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BD7F05B1F7E9949"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			subtitle: "Eternally yours, or is it."
+			tasks: [{
+				id: "7DA62EE94D9B8E22"
+				item: {
+					Count: 1b
+					id: "forbidden_arcanus:eternal_stella"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["038FDF32D0EC6BC3"]
+			id: "7F9FC054CF419CE2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B24F6EC12E3E5C1"
+				table_id: 8453540496955162906L
+				type: "random"
+			}]
+			tasks: [{
+				id: "38DDD76F1A307142"
+				item: "forbidden_arcanus:smelter_prism"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["038FDF32D0EC6BC3"]
+			id: "366DADC066C3FB6D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E4417157A431D2F"
+				table_id: 8453540496955162906L
+				type: "random"
+			}]
+			tasks: [{
+				id: "17815C7A33397012"
+				item: "forbidden_arcanus:ferrognetic_mixture"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["038FDF32D0EC6BC3"]
+			id: "0145582D71E7B565"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E0397045DBBF613"
+				table_id: 8453540496955162906L
+				type: "random"
+			}]
+			tasks: [{
+				id: "34E06E6852E43D1C"
+				item: "forbidden_arcanus:terrastomp_prism"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62CA0D441088F28B"]
+			id: "1E12DE58CDDDC932"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DA34EB2C32953A8"
+				table_id: 8453540496955162906L
+				type: "random"
+			}]
+			tasks: [{
+				id: "299BA93742B8B0F8"
+				title: "Welcome"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B299C8A04D83DE1"]
+			description: ["This a multiblock, check in the wiki/book!"]
+			id: "038FDF32D0EC6BC3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DA550065B5048C1"
+				table_id: 8453540496955162906L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2A7A4C8944C161B2"
+				item: "forbidden_arcanus:hephaestus_forge"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"366DADC066C3FB6D"
+				"7F9FC054CF419CE2"
+				"0145582D71E7B565"
+			]
+			id: "781FA4E81006227F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F8BA38D8CE41C2D"
+				table_id: 8453540496955162906L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0263C3280CC476C2"
+				title: "Unlocks Occultism"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Few steps short of human transmutation."]
+	title: "Forbidden and Arcanus"
+}

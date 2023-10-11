@@ -1,0 +1,637 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_craft_2"
+	group: "705E4F7CAD7B2E12"
+	icon: "ic2:stabilized_machine_block"
+	id: "7BE96816FED884B7"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4E02E8D9BB6C0DCC"]
+			id: "7BE7A25E14ECC710"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CAC677BCC83D68D"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "10D1C65BF870C3C2"
+				title: "Unlock Refined Storage"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3BE4ADBD48D42AAC"
+				"6CC744AE6F00D5CE"
+			]
+			id: "62F4BC48C2D61645"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DA4F700FA22717E"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4CF94557EA1A9891"
+				title: "brings back memories.."
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["62F4BC48C2D61645"]
+			id: "2435FD348CBB446C"
+			rewards: [
+				{
+					id: "410B98C0C8F478E9"
+					item: "ic2:rubber_sapling"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26FCEFDB58BF32A9"
+					table_id: 4372274320078885671L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "66A57ED5150EB5E8"
+				item: "ic2:machine_block"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2435FD348CBB446C"]
+			id: "0975761E344F7DA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23D80584034B4AF0"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "662366D8B8A89848"
+				item: "ic2:circuit"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0975761E344F7DA6"]
+			id: "7BA5D8BE9D0B0947"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6766386DCC2599E8"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "56749DC0925B0B49"
+				title: "LV Generation"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7BA5D8BE9D0B0947"]
+			id: "6260A84B53C9818A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7926A85B13263691"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6306577ED5DF3CFB"
+				item: "ic2:solar_panel_lv"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7BA5D8BE9D0B0947"]
+			id: "6FF2F99CCCB385EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "500BBE7264E6664F"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "421163A36316280A"
+				item: "ic2:water_mill_lv"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7BA5D8BE9D0B0947"]
+			id: "368201F37F070FDA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38B3818C240B40E8"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6D09C6A24D081727"
+				item: "ic2:generator"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7BA5D8BE9D0B0947"]
+			id: "56F95CF9F7CBF658"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C37320E9F4D307C"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "62DE386827B247CA"
+				item: "ic2:geothermal_generator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7BA5D8BE9D0B0947"]
+			id: "463160B4BB9417CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08871A4FA2E0BF01"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F2FDF93A576C033"
+				item: "ic2:thermal_generator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7BA5D8BE9D0B0947"]
+			id: "720D0D389993557F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79552D71D9AF6EE0"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F306C36AE6D28A7"
+				item: "ic2:wave_generator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7BA5D8BE9D0B0947"]
+			id: "50608637154D03C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21AD163F461F894A"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3C3CF0F240AC8E28"
+				item: "ic2:liquid_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0975761E344F7DA6"]
+			id: "70AA9200E7C10C4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EC81E413EFB731A"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5FB126B2CB655BB2"
+				item: "ic2:advanced_circuit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"70AA9200E7C10C4B"
+				"7DAB5D3CA05F8B06"
+			]
+			id: "562A18651D5416B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30D61818354C5BF0"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "679D3DA27113C173"
+				item: "ic2:advanced_machine_block"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0975761E344F7DA6"]
+			id: "73C0528F9A5ABF2F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B73C63E1CA8F6F7"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "67B0B079C3448F11"
+				title: "LV machines"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["73C0528F9A5ABF2F"]
+			id: "739EDA5B09855FA8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "317808D60C7959FC"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "346AEB571E0A5E96"
+				item: "ic2:compressor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["73C0528F9A5ABF2F"]
+			id: "3EC04637D02E4C2F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "635153057654CCC0"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "09D03390F458498D"
+				item: "ic2:macerator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["73C0528F9A5ABF2F"]
+			id: "3FE9383BB8A0CBAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F847E0BC164D8F8"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19D715BF8169111A"
+				item: "ic2:electric_furnace"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["73C0528F9A5ABF2F"]
+			id: "001ED1C201396A1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D767F2BC19753C5"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F489A37FE64CC19"
+				item: "ic2:sawmill"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["73C0528F9A5ABF2F"]
+			id: "1912E2549C705041"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DA7B140E84F2BED"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2DC6FE0E6CD7B951"
+				item: "ic2:extractor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["73C0528F9A5ABF2F"]
+			id: "2250B71587858B57"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D819D8626CBF220"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4084D02A202622B4"
+				item: "ic2:electrolyzer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3EC04637D02E4C2F"]
+			id: "591312F16F9AF491"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68B806E330B65C3F"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "640754352D49F56D"
+					item: "ic2:carbon_fiber"
+					type: "item"
+				}
+				{
+					id: "582D0C397E110047"
+					item: "ic2:dust_coal"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"591312F16F9AF491"
+				"739EDA5B09855FA8"
+			]
+			id: "7DAB5D3CA05F8B06"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44DFD7F394FC89DF"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "10F08AC379B5F7CF"
+					item: "ic2:plate_advanced_alloy"
+					type: "item"
+				}
+				{
+					id: "10FA7EBF8247BBBF"
+					item: "ic2:ingot_advanced_alloy"
+					type: "item"
+				}
+				{
+					id: "00D1D5BCA89F724F"
+					item: "ic2:carbon_plate"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"562A18651D5416B9"
+				"69C6887592503636"
+				"521C3282A7D3D3E5"
+			]
+			id: "1224556DB28CDD2F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5385A24654613B7D"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32E07E20A73C30DC"
+				item: "ic2:stabilized_machine_block"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["73C0528F9A5ABF2F"]
+			id: "5BDF994D840ABE0F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AEC0EB23E8DE29B"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6322D5ED813F9514"
+				item: "ic2:rare_earth_extractor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2250B71587858B57"
+				"41C699FF9CB538CF"
+			]
+			id: "69C6887592503636"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "474FB827946E74F5"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "270969FC44A8FD39"
+				item: "ic2:magnet"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"739EDA5B09855FA8"
+				"1E3EBE1908688C82"
+			]
+			id: "41C699FF9CB538CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B146C91CE47602F"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "59351562D45C2F61"
+				item: "ic2:dead_magnet"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5BDF994D840ABE0F"]
+			id: "1E3EBE1908688C82"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F8FC1CCA0AE9FB0"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4DA5C6FA4CB49ECF"
+					item: "ic2:dust_rare_earth"
+					type: "item"
+				}
+				{
+					id: "0CCFE8EF77467A1D"
+					item: "ic2:rare_earth_chunk"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["73C0528F9A5ABF2F"]
+			id: "11310519EC6440C5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C3AED4661F469CD"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "402D17C47627E032"
+				item: "ic2:alloy_smelter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["11310519EC6440C5"]
+			id: "521C3282A7D3D3E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54F61F41711D4AB8"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7B1349A5B21561B2"
+				item: "ic2:complex_circuit"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["521C3282A7D3D3E5"]
+			id: "62009DAFA0DCE2A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4129F7254E07E89F"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3CE7C3684FFCCFAB"
+				item: "ic2:glowtronic_crystal"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1224556DB28CDD2F"]
+			id: "2F41C89494580CBC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BDE02DB6ED65ECF"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4029FCCDFD9C6B8B"
+				item: "ic2:mass_fabricator"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F41C89494580CBC"]
+			id: "4E02E8D9BB6C0DCC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20D71980431E689E"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1495F8B26E133E05"
+				item: "ic2:uumatter"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BDF994D840ABE0F"]
+			id: "1100C55C347E970C"
+			tasks: [{
+				id: "6F3F7E033F9372AF"
+				item: "ic2:dust_aluminium"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+	]
+	title: "Industrial Craft 2"
+}

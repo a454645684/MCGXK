@@ -1,0 +1,11 @@
+{
+    "name": "Beeswax",
+    "colors": [
+      "dd8d12",
+      "a97320"
+    ],
+    "ingredient": {
+      "item": "resourcefulbees:wax"
+    }, 
+"inUltimateSingularity": true
+  }

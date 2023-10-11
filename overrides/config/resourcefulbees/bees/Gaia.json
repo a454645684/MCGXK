@@ -1,0 +1,21 @@
+{
+    "resourcefulbees:core/v1": {
+        "flower": "mythicbotany:raw_elementium_block",
+        "honeycombVariation": "Gaia",
+        "maxTimeInHive": 600
+    },
+    "resourcefulbees:rendering/v1": {
+        "texture": "gaia",
+        "ColorData": {
+            "spawnEggPrimaryColor": "#d4006b",
+            "spawnEggSecondaryColor": "#ff22ad",
+            "jarColor": "#d4006b"
+        }
+    },
+    "resourcefulbees:breeding/v1": {
+        "isBreedable": false
+    },
+    "resourcefulbees:trait/v1": {
+        "traits": ["healer"]
+    }
+}

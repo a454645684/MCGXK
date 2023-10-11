@@ -1,0 +1,12 @@
+[
+    {
+      "type": "block",
+      "key": "mysticalagriculture:supremium_block",
+      "rarity": "common",
+      "create": 10,
+      "maintain": 10,
+      "ticks": 10,
+      "worldgen": true,
+      "dimlet": true
+    }
+]

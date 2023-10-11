@@ -1,0 +1,70 @@
+{
+	id: "2EE58A770A535367"
+	loot_crate: {
+		color: 3648105
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "uncommon"
+	}
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "minecraft:diamond_block" }
+		{ item: "minecraft:iron_block" }
+		{ item: "minecraft:copper_block" }
+		{ item: "minecraft:gold_block" }
+		{ item: "minecraft:ancient_debris" }
+		{ count: 16, item: "minecraft:obsidian" }
+		{ item: "minecraft:emerald_block" }
+		{ count: 10, item: "minecraft:ender_pearl" }
+		{ item: "minecraft:amethyst_block" }
+		{ item: "minecraft:shulker_box" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:silk_touch"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{ item: "minecraft:totem_of_undying" }
+		{ count: 3, item: "cyclic:generator_solar" }
+		{ item: "integrateddynamics:coal_generator" }
+		{ item: "create:cogwheel" }
+		{ count: 16, item: "forcecraft:raw_bacon" }
+		{ count: 2, item: "botania:manasteel_ingot" }
+		{ item: "botania:magnet_ring" }
+		{ count: 4, item: "botania:spark" }
+		{ count: 2, item: "immersiveengineering:ingot_hop_graphite" }
+		{ count: 2, item: "immersiveengineering:cloche" }
+		{ item: "thermal:steel_block" }
+		{ count: 4, item: "createchromaticreturn:chromatic_compound" }
+		{ item: "createchromaticreturn:industrium_ingot" }
+		{
+			item: {
+				Count: 1b
+				id: "create_things_and_misc:mending_rune"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 5, item: "create:large_cogwheel" }
+		{ item: "create:precision_mechanism" }
+		{ item: "create:blaze_cake" }
+		{ item: "naturesaura:infused_iron_block" }
+		{ item: "naturesaura:sky_ingot" }
+		{ item: "naturesaura:calling_spirit" }
+		{ item: "naturesaura:tainted_gold" }
+		{ item: "naturesaura:generator_limit_remover" }
+		{ item: "botania:conjuration_catalyst" }
+	]
+	title: "Uncommon"
+}

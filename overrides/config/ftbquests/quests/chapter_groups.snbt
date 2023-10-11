@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "175ED9FB41C6784B", title: "Magic but not OP" }
+		{ id: "3C974839A5FB71B8", title: "Magic but OP " }
+		{ id: "705E4F7CAD7B2E12", title: "Best of Tech moments #45" }
+		{ id: "74CFFD80FA920ECE", title: "Tech but Techier than the low tech" }
+		{ id: "6386AD7111B9BD02", title: "Endgame (don't sue me Marvel)" }
+		{ id: "79D9329280DC165E", title: "Other things" }
+	]
+}

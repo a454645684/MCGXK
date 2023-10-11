@@ -1,0 +1,11 @@
+{
+    "name": "Force",
+    "colors": [
+      "d4af37",
+      "d1f3fd"
+    ],
+    "ingredient": {
+      "item": "forcecraft:force_ingot"
+    }, 
+"inUltimateSingularity": true
+  }

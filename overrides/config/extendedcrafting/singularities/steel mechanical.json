@@ -1,0 +1,11 @@
+{
+    "name": "Steel mechanical",
+    "colors": [
+      "191919",
+      "5b5454"
+    ],
+    "ingredient": {
+      "item": "immersiveengineering:component_steel"
+    }, 
+"inUltimateSingularity": true
+  }

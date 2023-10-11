@@ -1,0 +1,11 @@
+{
+    "name": "Propane Fart",
+    "colors": [
+      "221b18",
+      "1a6600"
+    ],
+    "ingredient": {
+      "item": "chemlib:propane"
+    }, 
+"inUltimateSingularity": true
+  }

@@ -1,0 +1,11 @@
+{
+    "name": "Gaiasteel",
+    "colors": [
+      "911116",
+      "d1f3fd"
+    ],
+    "ingredient": {
+      "item": "botanicadds:gaiasteel_ingot"
+    }, 
+"inUltimateSingularity": true
+  }

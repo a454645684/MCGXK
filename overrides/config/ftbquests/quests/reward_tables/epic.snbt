@@ -1,0 +1,61 @@
+{
+	id: "7551024B0F64411A"
+	loot_crate: {
+		color: 8388863
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "epic"
+	}
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 16, item: "refinedstorage:advanced_processor" }
+		{ count: 32, item: "refinedstorage:quartz_enriched_iron" }
+		{ item: "refinedstorage:4096k_fluid_storage_part" }
+		{ item: "refinedstorage:64k_storage_part" }
+		{ count: 16, item: "refinedstorage:external_storage" }
+		{ count: 4, item: "refinedstorage:crafter" }
+		{ item: "extrastorage:netherite_crafter" }
+		{ count: 4, item: "thermal:upgrade_augment_3" }
+		{ item: "thermalendergy:endergy_upgrade_3" }
+		{ count: 32, item: "thermal:dynamo_lapidary" }
+		{
+			count: 2
+			item: {
+				Count: 1b
+				id: "thermal:energy_cell"
+				tag: {
+					BlockEntityTag: {
+						Energy: 0
+						EnergyMax: 1000000
+						EnergyRecv: 1000
+						EnergySend: 1000
+					}
+				}
+			}
+		}
+		{ count: 16, item: "thermal:machine_speed_augment" }
+		{ item: "hexerei:crow_ankh_amulet" }
+		{ item: "hexerei:blood_sigil" }
+		{ count: 10, item: "hexerei:crow_spawn_egg" }
+		{ count: 4, item: "elementalcraft:purecrystal" }
+		{ item: "elementalcraft:fireite_block" }
+		{ count: 12, item: "elementalcraft:swift_alloy_ingot" }
+		{ count: 4, item: "elementalcraft:container" }
+		{ item: "elementalcraft:overloadshrine" }
+		{ item: "dankstorage:dank_7" }
+		{ item: "botanypotstiers:ultra_terracotta_hopper_botany_pot" }
+		{
+			item: {
+				Count: 1b
+				id: "forbidden_arcanus:eternal_stella"
+				tag: { }
+			}
+		}
+		{ item: "minecraft:evoker_spawn_egg" }
+	]
+	title: "Epic"
+}

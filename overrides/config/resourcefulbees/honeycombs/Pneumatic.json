@@ -1,0 +1,15 @@
+{
+    "honeycomb": {
+      "color": "#000000",
+      "edible": true,
+      "block": true,
+      "tradeData": {}
+    },
+    "variations": [
+      {
+        "identifier": "pneumatic",
+        "defaultComb": {"id":  "resourcefulbees:pneumatic_honeycomb"},
+        "defaultCombBlock": {"id":  "resourcefulbees:pneumatic_honeycomb_block"}
+      }
+    ]
+  }

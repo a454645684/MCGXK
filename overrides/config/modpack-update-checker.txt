@@ -1,0 +1,8 @@
+Github Repo URL (MUST END URL WITH A SLASH):
+https://raw.githubusercontent.com/Jab125/TestModpackUpdateChecker/main/
+Current Modpack Version
+1.0.0
+Modpack Name:
+Modpack Name Goes Here
+Expand Button (y/n) (doesn't reposition the button!):
+n

@@ -1,0 +1,11 @@
+{
+    "name": "Pork",
+    "colors": [
+      "911116",
+      "d1f3fd"
+    ],
+    "ingredient": {
+      "item": "mysticalagriculture:pig_essence"
+    }, 
+"inUltimateSingularity": true
+  }

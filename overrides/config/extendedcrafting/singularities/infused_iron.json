@@ -1,0 +1,11 @@
+{
+    "name": "Infused",
+    "colors": [
+      "2d5f40",
+      "d1f3fd"
+    ],
+    "ingredient": {
+      "item": "naturesaura:infused_iron"
+    }, 
+"inUltimateSingularity": true
+  }

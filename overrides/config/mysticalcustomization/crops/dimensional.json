@@ -1,0 +1,14 @@
+{
+    "name": "Dimensional",
+    "type": "resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "rftoolsbase:dimensionalshard"
+    },
+    "color": "00f3ff",
+    "recipes": {
+    "crafting": false, 
+    "infusion": false
+    },
+    "crux": "rftoolsdim:dimensional_blank_block"
+}

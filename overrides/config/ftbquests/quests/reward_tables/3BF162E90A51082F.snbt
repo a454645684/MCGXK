@@ -1,0 +1,51 @@
+{
+	icon: "minecraft:chest"
+	id: "3BF162E90A51082F"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "thermal:nuke_grenade" }
+		{ item: "thermal:phyto_grenade" }
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ item: "itemcollectors:advanced_collector" }
+		{ count: 4, item: "darkutils:vector_plate_ultra" }
+		{ item: "projecte:dark_matter" }
+		{ item: "cobblefordays:tier_5" }
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "projecte:repair_talisman"
+			}
+		}
+		{ count: 4, item: "pipez:ultimate_upgrade" }
+		{ count: 4, item: "mekanism:upgrade_speed" }
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "projecte:klein_star_ein"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "projecte:klein_star_vier"
+			}
+		}
+		{ item: "thermal:upgrade_augment_3" }
+		{ count: 2, item: "minecraft:netherite_scrap" }
+		{ item: "immersiveengineering:jerrycan" }
+		{ count: 2, item: "snad:snad" }
+		{ item: "trashcans:ultimate_trash_can" }
+		{ count: 4, item: "mob_grinding_utils:delightful_dirt" }
+	]
+	title: "Legendary resources"
+}

@@ -1,0 +1,21 @@
+{
+    "resourcefulbees:core/v1": {
+        "flower": "pneumaticcraft:huge_tank",
+        "honeycombVariation": "pneumatic",
+        "maxTimeInHive": 600
+    },
+    "resourcefulbees:rendering/v1": {
+        "texture": "pneumatic",
+        "ColorData": {
+            "spawnEggPrimaryColor": "#000000",
+            "spawnEggSecondaryColor": "#404243",
+            "jarColor": "#404243"
+        }
+    },
+    "resourcefulbees:breeding/v1": {
+        "isBreedable": false
+    },
+    "resourcefulbees:trait/v1": {
+        "traits": ["healer"]
+    }
+}

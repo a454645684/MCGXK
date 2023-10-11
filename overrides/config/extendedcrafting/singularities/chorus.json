@@ -1,0 +1,11 @@
+{
+    "name": "Chorus chunk",
+    "colors": [
+      "9119ea",
+      "ee32af"
+    ],
+    "ingredient": {
+      "item": "integrateddynamics:crystalized_chorus_chunk"
+    }, 
+"inUltimateSingularity": true
+  }

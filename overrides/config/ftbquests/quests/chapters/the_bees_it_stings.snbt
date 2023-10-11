@@ -1,0 +1,826 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_bees_it_stings"
+	group: "3C974839A5FB71B8"
+	icon: "resourcefulbees:gold_flower"
+	id: "4D7E54F609658C9E"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.0d
+			hover: [ ]
+			image: "minecraft:item/honeycomb"
+			rotation: 0.0d
+			width: 7.0d
+			x: 12.25d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "forbidden_arcanus:item/edelwood_bee_bucket"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.75d
+			y: -7.25d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7C54F45255FD8996"]
+			id: "4F1FF637F2757831"
+			tasks: [{
+				id: "3A6A3315EA78325A"
+				item: "resourcefulbees:beepedia"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C54F45255FD8996"]
+			icon: "resourcefulbees:nest/netherrack/4"
+			id: "48AC7DE7D7FA594A"
+			optional: true
+			tasks: [
+				{
+					id: "01B52C1F89164D02"
+					item: "resourcefulbees:nest/crimson_nylium/1"
+					type: "item"
+				}
+				{
+					id: "64916611D337702B"
+					item: "resourcefulbees:nest/netherrack/1"
+					type: "item"
+				}
+				{
+					id: "1B54392202220F77"
+					item: "resourcefulbees:nest/warped/1"
+					type: "item"
+				}
+				{
+					id: "39ACC9152B100815"
+					item: "resourcefulbees:nest/warped_nylium/1"
+					type: "item"
+				}
+			]
+			title: "Nether Bee Nest"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["264CD4E9B3F055B2"]
+			icon: "resourcefulbees:honey_glass"
+			id: "7C54F45255FD8996"
+			shape: "gear"
+			tasks: [{
+				id: "0364004756D90620"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["73121D1485E47B03"]
+			id: "0FE303BC86E6C808"
+			tasks: [{
+				id: "6D3ED494F65418B1"
+				item: "resourcefulbees:bee_box"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.75d
+		}
+		{
+			dependencies: ["2A1D8B33F51B85A1"]
+			description: [
+				"You can set where a bee's hive or flower posistion is, allowing for you to split up bees is they all crowd around a single flower."
+				""
+				"To change a bee's settings simply &2Right Click&r on a bee and then &2Right Click&r on a hive or flower."
+			]
+			id: "59B083CFB85E29C4"
+			subtitle: "The Honey Dipper is a special tool that allows you to direct bees"
+			tasks: [{
+				id: "149E8629E8E7390F"
+				item: "resourcefulbees:honey_dipper"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.75d
+		}
+		{
+			dependencies: ["06CC09E0AE4819E5"]
+			description: [
+				"The &6Centrifuge&r will use RF to turn you combs into resources."
+				""
+				"There is a limitation that it can only process honeycombs, not blocks."
+				""
+				"This process can be automated with &6Hoppers&r."
+			]
+			id: "068238B670D5838E"
+			tasks: [{
+				id: "1883C72DAE03C6E0"
+				item: "resourcefulbees:centrifuge"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -7.75d
+		}
+		{
+			dependencies: [
+				"1DE078858BC0E120"
+				"6EFE7C9EF202CD9D"
+			]
+			id: "1DDDB1A3B0465769"
+			tasks: [{
+				id: "420B1C9640AAAEA8"
+				item: {
+					Count: 1b
+					id: "resourcefulbees:smoker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C54F45255FD8996"]
+			id: "6EFE7C9EF202CD9D"
+			tasks: [{
+				id: "507B868D9BD6A149"
+				item: "resourcefulbees:bellow"
+				type: "item"
+			}]
+			x: -2.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["7C54F45255FD8996"]
+			id: "1DE078858BC0E120"
+			tasks: [{
+				id: "5E4C361AA317AF57"
+				item: "resourcefulbees:smoker_can"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C54F45255FD8996"]
+			id: "44FEC42A09F27601"
+			tasks: [{
+				id: "4E8157B829B78558"
+				item: "resourcefulbees:scraper"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C54F45255FD8996"]
+			id: "650D38C031213267"
+			tasks: [{
+				id: "7F2C33D119BC635E"
+				item: "resourcefulbees:solidification_chamber"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C54F45255FD8996"]
+			description: [
+				"&dConsumes honey, grants bees safety."
+				""
+				"&d[Prevents bees from teleporting in effect range]&r"
+			]
+			id: "11F856DB9FC55F37"
+			tasks: [{
+				id: "06E038B048A8A541"
+				item: "resourcefulbees:ender_beecon"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["28B19C23A8F8E8B3"]
+			id: "06CC09E0AE4819E5"
+			tasks: [{
+				id: "296A996D31B9AD3C"
+				item: "resourcefulbees:centrifuge_crank"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4E86D96FF3074176"]
+			id: "2A1D8B33F51B85A1"
+			tasks: [{
+				id: "0ECBB67D7C137D8C"
+				item: "resourcefulbees:wax_block"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["06CC09E0AE4819E5"]
+			id: "4E86D96FF3074176"
+			tasks: [{
+				id: "1C1A073B18931874"
+				item: "resourcefulbees:wax"
+				type: "item"
+			}]
+			x: -5.75d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C54F45255FD8996"]
+			id: "28709F340776730B"
+			tasks: [{
+				id: "52FFA03B7D1BD0DA"
+				item: "resourcefulbees:bee_jar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3493AD0D5D5B90F9"]
+			id: "73121D1485E47B03"
+			tasks: [{
+				id: "2091EFDFA9F2523C"
+				item: "resourcefulbees:trimmed_waxed_planks"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["73121D1485E47B03"]
+			id: "2FCCDB009DE142DA"
+			tasks: [{
+				id: "5A8BB69CC09D1000"
+				item: "resourcefulbees:waxed_machine_block"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4AC0FC4699AFBD13"]
+			id: "11965D0D09236C19"
+			shape: "rsquare"
+			tasks: [{
+				id: "38C77646D25AEC16"
+				item: "resourcefulbees:nest/oak/1"
+				type: "item"
+			}]
+			x: -3.25d
+			y: -10.5d
+		}
+		{
+			dependencies: ["11965D0D09236C19"]
+			id: "22139799660D34DD"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "67989F8E866DD512"
+					item: "resourcefulbees:nest/oak/2"
+					type: "item"
+				}
+				{
+					id: "6983A462CD6076D7"
+					item: "resourcefulbees:t2_nest_upgrade"
+					type: "item"
+				}
+			]
+			x: -2.25d
+			y: -10.5d
+		}
+		{
+			dependencies: ["22139799660D34DD"]
+			id: "6894990590FEF161"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "09EE494D5448280F"
+					item: "resourcefulbees:nest/oak/3"
+					type: "item"
+				}
+				{
+					id: "54ED6C108CA5483A"
+					item: "resourcefulbees:t3_nest_upgrade"
+					type: "item"
+				}
+			]
+			x: -1.25d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6894990590FEF161"]
+			id: "3C8A8700FBCFE73D"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "47A4738897B2079E"
+					item: "resourcefulbees:nest/oak/4"
+					type: "item"
+				}
+				{
+					id: "1909930813DB3D6B"
+					item: "resourcefulbees:t4_nest_upgrade"
+					type: "item"
+				}
+			]
+			x: -0.25d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3C8A8700FBCFE73D"]
+			id: "5F7FB82489504D73"
+			shape: "rsquare"
+			tasks: [{
+				id: "66CB059C6FAA1F3F"
+				item: "resourcefulbees:t1_apiary"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5F7FB82489504D73"]
+			id: "21B3F64BC42AF1EF"
+			shape: "rsquare"
+			tasks: [{
+				id: "09D3AF3CD920D14F"
+				item: "resourcefulbees:t2_apiary"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -10.5d
+		}
+		{
+			dependencies: ["21B3F64BC42AF1EF"]
+			id: "5F885DED79DA359E"
+			shape: "rsquare"
+			tasks: [{
+				id: "346D893C413625DE"
+				item: "resourcefulbees:t3_apiary"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5F885DED79DA359E"]
+			id: "27EF9E9C19C26C77"
+			shape: "rsquare"
+			tasks: [{
+				id: "60C071566428F9EC"
+				item: "resourcefulbees:t4_apiary"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -10.5d
+		}
+		{
+			dependencies: ["068238B670D5838E"]
+			hide_dependency_lines: true
+			id: "7A66C68E1C3AF881"
+			tasks: [
+				{
+					id: "06B5999C0D424D25"
+					item: "resourcefulbees:centrifuge/terminal/basic"
+					type: "item"
+				}
+				{
+					count: 35L
+					id: "6ADBDC86609579C8"
+					item: "resourcefulbees:centrifuge/casing"
+					type: "item"
+				}
+			]
+			title: "Centrifuge T1"
+			x: -4.25d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7A66C68E1C3AF881"]
+			id: "4141EE8BD098B5F7"
+			tasks: [{
+				id: "652C1DFE081C27EA"
+				item: "resourcefulbees:centrifuge/terminal/advanced"
+				type: "item"
+			}]
+			title: "Centrifuge T2"
+			x: -3.25d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4141EE8BD098B5F7"]
+			id: "5D668A7645CA9D75"
+			tasks: [{
+				id: "3C05061A48D2B712"
+				item: "resourcefulbees:centrifuge/terminal/elite"
+				type: "item"
+			}]
+			title: "Centrifuge T3"
+			x: -2.25d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5D668A7645CA9D75"]
+			id: "5B4B6227A4AD5BF6"
+			tasks: [{
+				id: "44B447BCD0D38A76"
+				item: "resourcefulbees:centrifuge/terminal/ultimate"
+				type: "item"
+			}]
+			title: "Centrifuge T4"
+			x: -1.25d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"7C54F45255FD8996"
+				"54DC8317D4B7A510"
+			]
+			id: "3976D489E9603FD4"
+			tasks: [{
+				id: "20AB11496A5DB3AC"
+				item: "resourcefulbees:honey_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["28709F340776730B"]
+			hide_dependency_lines: true
+			id: "40DCBD615084C6C3"
+			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			tasks: [{
+				id: "5B07275520606AD7"
+				item: "resourcefulbees:strawbeerry_milkshake"
+				type: "item"
+			}]
+			title: "AbBee"
+			x: 12.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1C2488763CCCA93F"]
+			hide_dependency_lines: true
+			id: "050F2D70D0777FB3"
+			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
+			tasks: [{
+				id: "317EFE606B882383"
+				item: "resourcefulbees:dragon_honeycomb"
+				type: "item"
+			}]
+			title: "Dragon Bee"
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"5C0249E7EC12F8B1"
+				"605C1A4203A832F0"
+			]
+			hide_dependency_lines: true
+			id: "33C16FAD439619C2"
+			shape: "hexagon"
+			tasks: [{
+				id: "526A113C7FA25663"
+				item: "resourcefulbees:diamond_honeycomb"
+				type: "item"
+			}]
+			title: "Diamond Bee"
+			x: 10.5d
+			y: -6.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "5AE479976404293E"
+			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
+			tasks: [{
+				id: "502E60E3F595B09F"
+				item: "resourcefulbees:coal_honeycomb"
+				type: "item"
+			}]
+			title: "Coal Bee"
+			x: 12.0d
+			y: -7.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "1C2488763CCCA93F"
+			shape: "hexagon"
+			subtitle: "Spawn in End"
+			tasks: [{
+				id: "3876A19B3552D1DF"
+				item: "resourcefulbees:ender_honeycomb"
+				type: "item"
+			}]
+			title: "Ender Bee"
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["33C16FAD439619C2"]
+			hide_dependency_lines: true
+			id: "2D5EC8FEBAB64AB9"
+			shape: "hexagon"
+			tasks: [{
+				id: "3FB77264B87DA947"
+				item: "resourcefulbees:emerald_honeycomb"
+				type: "item"
+			}]
+			title: "Emerald Bee"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["28709F340776730B"]
+			hide_dependency_lines: true
+			id: "13FD0A0106F7266A"
+			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			tasks: [{
+				id: "634E1990DBC736A6"
+				item: "minecraft:packed_ice"
+				type: "item"
+			}]
+			title: "Icy Bee"
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "448EA86687BE6A64"
+			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
+			tasks: [{
+				id: "29F5C000BA6EB706"
+				item: "resourcefulbees:gold_honeycomb"
+				type: "item"
+			}]
+			title: "Gold Bee"
+			x: 14.0d
+			y: -5.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "5C0249E7EC12F8B1"
+			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
+			tasks: [{
+				id: "665E88B0EC4C840C"
+				item: "resourcefulbees:lapis_honeycomb"
+				type: "item"
+			}]
+			title: "Lapis Bee"
+			x: 13.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["28709F340776730B"]
+			hide_dependency_lines: true
+			id: "4CBF35606533B089"
+			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			tasks: [{
+				id: "64FF3D35B9F37C6C"
+				item: "resourcefulbees:catnip_honeycomb"
+				type: "item"
+			}]
+			title: "Kitten Bee"
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "6B6D7B4AA8FFDC17"
+			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
+			tasks: [{
+				id: "17693588DF856B16"
+				item: "resourcefulbees:iron_honeycomb"
+				type: "item"
+			}]
+			title: "Iron Bee"
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"33C16FAD439619C2"
+				"173E32122B3FBF1A"
+			]
+			hide_dependency_lines: true
+			id: "0ECE7517056CFEC5"
+			shape: "hexagon"
+			tasks: [{
+				id: "743DBA76D6841DF4"
+				item: "resourcefulbees:netherite_honeycomb"
+				type: "item"
+			}]
+			title: "Netherite Bee"
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "605C1A4203A832F0"
+			shape: "hexagon"
+			subtitle: "Spawn in Nether"
+			tasks: [{
+				id: "3CAF5640AD0BB569"
+				item: "resourcefulbees:nether_quartz_honeycomb"
+				type: "item"
+			}]
+			title: "Nether Quartz Bee"
+			x: 13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["28709F340776730B"]
+			hide_dependency_lines: true
+			id: "0F304E760CEF2C4E"
+			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			tasks: [{
+				id: "7DA6C3B7577528BB"
+				item: "resourcefulbees:oreo_cookie"
+				type: "item"
+			}]
+			title: "Oreo Bee"
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["28709F340776730B"]
+			hide_dependency_lines: true
+			id: "1759DCC8A2F5E01F"
+			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			tasks: [{
+				id: "37231D2D5C726991"
+				item: "resourcefulbees:rgbee_honeycomb"
+				type: "item"
+			}]
+			title: "RGBee"
+			x: 12.0d
+			y: -5.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "745803B38BA58076"
+			shape: "hexagon"
+			tasks: [{
+				id: "44CA9287EE66E7E4"
+				item: "resourcefulbees:redstone_honeycomb"
+				type: "item"
+			}]
+			title: "Redstone Bee"
+			x: 11.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["28709F340776730B"]
+			hide_dependency_lines: true
+			id: "68C959E70C5FB27F"
+			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			tasks: [{
+				id: "22569AD4A5E80513"
+				item: "resourcefulbees:skeleton_honeycomb"
+				type: "item"
+			}]
+			title: "Skeleton Bee"
+			x: 13.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["28709F340776730B"]
+			hide_dependency_lines: true
+			id: "4732814EE3CEB7B3"
+			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			tasks: [{
+				id: "1DD6F30218071DB4"
+				item: "minecraft:ice"
+				type: "item"
+			}]
+			title: "Yeti Bee"
+			x: 11.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"68C959E70C5FB27F"
+				"5AE479976404293E"
+			]
+			hide_dependency_lines: true
+			id: "173E32122B3FBF1A"
+			shape: "hexagon"
+			tasks: [{
+				id: "2CFBCE0123D8E871"
+				item: "resourcefulbees:wither_honeycomb"
+				type: "item"
+			}]
+			title: "Wither Bee"
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7C54F45255FD8996"]
+			id: "1356E497437B716A"
+			tasks: [{
+				id: "006DBF1B4AC3EBA0"
+				item: "minecraft:honeycomb"
+				type: "item"
+			}]
+			title: "Bee"
+			x: -0.75d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1356E497437B716A"]
+			id: "3F699C17917FFE2D"
+			optional: true
+			tasks: [{
+				id: "20E4BA133D32D102"
+				item: "minecraft:bee_nest"
+				type: "item"
+			}]
+			x: -0.75d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4E86D96FF3074176"]
+			id: "3493AD0D5D5B90F9"
+			tasks: [{
+				id: "2A92820168FC394A"
+				item: "resourcefulbees:waxed_planks"
+				type: "item"
+			}]
+			x: -5.75d
+			y: -6.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "4AC0FC4699AFBD13"
+			shape: "rsquare"
+			tasks: [{
+				id: "5AC7A37D7E0BDFA1"
+				item: "minecraft:beehive"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -10.5d
+		}
+		{
+			dependencies: ["31227C95455A60FC"]
+			id: "264CD4E9B3F055B2"
+			tasks: [{
+				id: "2D523A84043B4DDF"
+				title: "Welcome"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["27EF9E9C19C26C77"]
+			id: "125DB91A0EB095FD"
+			shape: "diamond"
+			size: 3.0d
+			tasks: [{
+				id: "033752216BFD3999"
+				title: "Unlocks ProjectE"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -10.5d
+		}
+	]
+	title: "ResourcefulBees"
+}

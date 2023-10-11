@@ -1,0 +1,518 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forcecraft"
+	group: "175ED9FB41C6784B"
+	icon: "forcecraft:force_gem"
+	id: "19DF5BE560B39333"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["232DF4FAEC60B156"]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "forcecraft:force_and_you"
+				}
+			}
+			id: "61D9312216B05AEC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C501FE796645205"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5F2FC5F754C4450B"
+				title: "Welcome to forcecraft"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2391FDFE136F7730"
+				"1E88F72834FA1526"
+				"2814F3DBDAF040D9"
+				"1BC5276796609E97"
+			]
+			id: "08FA489B0B2EEB90"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F0F61D26964C575"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5049EE22AE732A48"
+				item: "forcecraft:heat_core"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2391FDFE136F7730"
+				"1E88F72834FA1526"
+				"2814F3DBDAF040D9"
+			]
+			id: "3B656BE0E5EF9186"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B536DD3D3C23B8E"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			subtitle: "It does nothing i think..."
+			tasks: [{
+				id: "03FBF39491CE731E"
+				item: "forcecraft:time_torch"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2391FDFE136F7730"]
+			id: "2814F3DBDAF040D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A9A2FC596EA4650"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "15ADA17359B814F9"
+				item: "forcecraft:force_engine"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"08FA489B0B2EEB90"
+				"3B656BE0E5EF9186"
+				"1E88F72834FA1526"
+			]
+			icon: "naturesaura:golden_leaves"
+			id: "54473A953B611910"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03E088B05510BCA2"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 3.0d
+			tasks: [{
+				id: "4C8A8999E5E5C03B"
+				title: "Unlocks Nature's Aura"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["61D9312216B05AEC"]
+			id: "2391FDFE136F7730"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58AD339D92B15E98"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1F94CFB19557A378"
+				item: "forcecraft:force_gem"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2814F3DBDAF040D9"
+				"2391FDFE136F7730"
+			]
+			id: "1E88F72834FA1526"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FB075C452E281CE"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2209A046B198BBFA"
+				item: "forcecraft:infuser"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2391FDFE136F7730"]
+			hide_dependency_lines: true
+			id: "0FA038C6D4058DAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C54C6B9D67851D8"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7E53F22204B89BF1"
+				item: "forcecraft:force_flask"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2391FDFE136F7730"]
+			hide_dependency_lines: true
+			id: "70C8D7700A0D39B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00464689A678825A"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1034E5FB4AF90805"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							experience: 0.0f
+						}
+					}
+					id: "forcecraft:experience_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2391FDFE136F7730"]
+			hide_dependency_lines: true
+			id: "57D509AF9EBE7E1F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AB64613AF18E585"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F32ED4BEEDC4991"
+				item: {
+					Count: 1b
+					id: "forcecraft:upgrade_tome"
+					tag: {
+						points: 0
+						progressCache: "0/2"
+						tier: 0
+						tier0: [ ]
+						tier1: [ ]
+						tier2: [ ]
+						tier3: [ ]
+						tier4: [ ]
+						tier5: [ ]
+						tier6: [ ]
+						tier7: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2391FDFE136F7730"]
+			hide_dependency_lines: true
+			id: "00046AC59E889955"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D61A0C625B83157"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3D111EE1EDA6E432"
+				item: {
+					Count: 1b
+					id: "forcecraft:force_mitt"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["61D9312216B05AEC"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1BC5276796609E97"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DB54138EE272681"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "670DA122E172532B"
+				item: "forcecraft:upgrade_core"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BC5276796609E97"]
+			id: "0115A618EB5FC8E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E868E55C699FEBF"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5ACA27581C694C1A"
+				item: "forcecraft:experience_core"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BC5276796609E97"]
+			id: "1C3588378A881AA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7735531D9290B401"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0344FA2D765E98D2"
+				item: "forcecraft:grinding_core"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1BC5276796609E97"]
+			id: "7EDC20BA9DBED6F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "184A372400EAB6A7"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5CE8A03F9076F3F6"
+				item: "forcecraft:speed_core"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61D9312216B05AEC"]
+			hide_dependency_lines: true
+			id: "625DC0D55087671F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13B1ECD3BE303504"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2A4EF3E58585362E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 4
+						}
+					}
+					id: "forcecraft:baconator"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["61D9312216B05AEC"]
+			hide_dependency_lines: true
+			id: "08D34A92D182C65F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E7469F7E097268C"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1D330ABFC308E64F"
+				item: "forcecraft:raw_bacon"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["61D9312216B05AEC"]
+			hide_dependency_lines: true
+			id: "58D57CD6B823D1E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CAA1A657B72BB77"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "11E27024B1178B99"
+				item: "forcecraft:cooked_bacon"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2391FDFE136F7730"]
+			hide_dependency_lines: true
+			id: "3D012A5469CA1B71"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63C10F4A63CAB9C5"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "64F0A258054FE494"
+				item: "forcecraft:force_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0FA038C6D4058DAD"]
+			id: "168248A046A1764D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3ECAA06CC80D5651"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2D3F0940A153B206"
+				item: "forcecraft:milk_force_flask"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0FA038C6D4058DAD"]
+			id: "41E93E566D2FB5FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41212AF94CB999FC"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "61B2ACABFB81C9AD"
+				item: "forcecraft:force_filled_force_flask"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0FA038C6D4058DAD"]
+			id: "2B68F9F112B0C280"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CF1473D3483191F"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5F6099EF6DC36C9E"
+				item: "forcecraft:red_potion"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61D9312216B05AEC"]
+			hide_dependency_lines: true
+			id: "350EB05B8A5E9F7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00D5285F31F2D38D"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "07CD139C13B46287"
+				item: "forcecraft:force_furnace"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2391FDFE136F7730"]
+			hide_dependency_lines: true
+			id: "60BD60004CD1B413"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34C4810F959A91F7"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5FFB59F1C9163094"
+				item: "forcecraft:treasure_core"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2391FDFE136F7730"]
+			hide_dependency_lines: true
+			id: "6A13B7ECB4D4E605"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32DC79E1421F4880"
+				table_id: 4743721017157547704L
+				type: "random"
+			}]
+			tasks: [{
+				id: "34D0FA3421C93115"
+				item: "forcecraft:force_sapling"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+	]
+	title: "ForceCraft"
+}

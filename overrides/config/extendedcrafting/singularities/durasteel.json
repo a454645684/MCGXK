@@ -1,0 +1,11 @@
+{
+    "name": "Durasteel",
+    "colors": [
+      "1e2124",
+      "851515"
+    ],
+    "ingredient": {
+      "item": "createchromaticreturn:durasteel_ingot"
+    }, 
+    "inUltimateSingularity": true
+  }

@@ -1,0 +1,11 @@
+{
+    "name": "Blood",
+    "colors": [
+      "611119",
+      "2d2206"
+    ],
+    "ingredient": {
+      "item": "evilcraft:blood_waxed_coal"
+    }, 
+"inUltimateSingularity": true
+  }

@@ -1,0 +1,11 @@
+{
+    "name": "Fireite",
+    "colors": [
+      "2d2206",
+      "dd8d12"
+    ],
+    "ingredient": {
+      "item": "elementalcraft:fireite_nugget"
+    }, 
+"inUltimateSingularity": true
+  }

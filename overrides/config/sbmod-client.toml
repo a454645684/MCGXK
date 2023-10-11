@@ -1,0 +1,7 @@
+
+["Configs for Skyblock Mod"]
+	#On login message
+	Welcome = true
+	#Highlights your name in chat
+	Notify = false
+

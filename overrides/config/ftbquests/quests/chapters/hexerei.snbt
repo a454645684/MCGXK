@@ -1,0 +1,744 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hexerei"
+	group: "175ED9FB41C6784B"
+	icon: {
+		Count: 1b
+		id: "hexerei:book_of_shadows"
+		tag: { }
+	}
+	id: "1AFDB1E4472F38A7"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["549E34CDA26FBB90"]
+			description: [
+				"The &6Book of Knowledge&r is Hexerei's guide book."
+				""
+				"Unlike other books however, it &chas no GUI&r. Instead, it has to be placed on an &bAltar&r."
+				""
+				"It would be a good idea to &6bookmark the items page&r, so navigating the Book isn't very quick. "
+			]
+			icon: "hexerei:book_of_shadows_altar"
+			id: "012FA57E9C8FC833"
+			rewards: [
+				{
+					id: "59853D835514CE5C"
+					item: {
+						Count: 1b
+						id: "hexerei:book_of_shadows"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4AC4944BD65C7BB7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D34F1557C6D84C9"
+					table_id: 4372274320078885671L
+					type: "random"
+				}
+			]
+			subtitle: "Make an Altar"
+			tasks: [{
+				id: "6A0533C6E08AA68F"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexerei:book_of_shadows_altar"
+							}
+							{
+								Count: 1b
+								id: "hexerei:willow_altar"
+							}
+							{
+								Count: 1b
+								id: "hexerei:witch_hazel_altar"
+							}
+						]
+					}
+				}
+				title: "Altars"
+				type: "item"
+			}]
+			title: "Altar of shadows"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3002421E4F9E5CC7"]
+			description: ["These &bWitchy Trees&r have potent magical power, and can be sifted from leaves."]
+			icon: "hexerei:willow_sapling"
+			id: "549E34CDA26FBB90"
+			rewards: [
+				{
+					id: "44C8182D1CD03A8B"
+					item: "hexerei:witch_hazel_sapling"
+					type: "item"
+				}
+				{
+					id: "2A43F752D9B54336"
+					item: "hexerei:mahogany_sapling"
+					type: "item"
+				}
+				{
+					id: "26D1897D0ACC4623"
+					item: "hexerei:willow_sapling"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B4826054A033D19"
+					table_id: 4372274320078885671L
+					type: "random"
+				}
+			]
+			subtitle: "Get a Sapling from Hexerei"
+			tasks: [{
+				id: "6831DA3DF78E5624"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexerei:willow_sapling"
+							}
+							{
+								Count: 1b
+								id: "hexerei:mahogany_sapling"
+							}
+							{
+								Count: 1b
+								id: "hexerei:witch_hazel_sapling"
+							}
+						]
+					}
+				}
+				title: "Witchy Trees"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["549E34CDA26FBB90"]
+			description: [
+				"The &bCoffer&r is a quaint little block, holding as much as a normal chest."
+				""
+				"They can be dyed and named, and &6keep their contents when broken&r."
+				""
+				"They have a special &6interaction with Crows&r: gathering Crows will take items to Coffers that contain that item if enabled in the Coffer."
+			]
+			id: "124A73FB5F734CCF"
+			rewards: [
+				{
+					id: "692E649D344D6D88"
+					item: "hexerei:mahogany_chest"
+					type: "item"
+				}
+				{
+					id: "35C4961A479EABBA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BE42F157322E27C"
+					table_id: 4372274320078885671L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "30B8906A1E7E62AA"
+				item: {
+					Count: 1b
+					id: "hexerei:coffer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3002421E4F9E5CC7"]
+			description: [
+				"After growing Grass on Grass Blocks with bonemeal, you can &6harvest it for&r &bSage Seeds&r."
+				""
+				"Sage is used in several recipes."
+			]
+			id: "2DCD3B73E3D512DC"
+			rewards: [
+				{
+					count: 4
+					id: "10504D130235A7A0"
+					item: "hexerei:sage"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "74AA214A47D25E0F"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "1F7B0E50176D6F2E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7419D8BCA0C4E5CF"
+					table_id: 4372274320078885671L
+					type: "random"
+				}
+			]
+			subtitle: "Get Sage Seeds"
+			tasks: [{
+				id: "397A4916DB20E39E"
+				item: "hexerei:sage_seed"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2DCD3B73E3D512DC"
+				"33324BC14CF7BCC5"
+			]
+			description: [
+				"Dried Sage Bundles can be burned at the &bSage Burning Plate&r to create a calming aura, &6preventing hostile mobs from spawning nearby&r."
+				""
+				"The cleansing smoke only works in a &648-meter circular radius&r, though outsiders can still wander in. It also &cburns out after an hour&r."
+			]
+			id: "388B3D14F851BE35"
+			rewards: [
+				{
+					count: 8
+					id: "62EEA22ECDB8E775"
+					item: {
+						Count: 1b
+						id: "hexerei:dried_sage_bundle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75B12E3893E7CBAE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56BC033DF7C155E8"
+					table_id: 4372274320078885671L
+					type: "random"
+				}
+			]
+			subtitle: "Make a Sage Burning Plate"
+			tasks: [{
+				id: "6B3155DAEB7DB6B7"
+				item: "hexerei:sage_burning_plate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2DCD3B73E3D512DC"]
+			description: ["The &bDrying Rack&r will allow you to &6dry items&r. Certain magical plants are more potent when dried."]
+			hide_dependency_lines: true
+			id: "33324BC14CF7BCC5"
+			rewards: [
+				{
+					id: "563C93E271082146"
+					item: "hexerei:candelabra"
+					type: "item"
+				}
+				{
+					id: "6F9F82DDBA8D6F60"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72B140690F5C2AE5"
+					table_id: 4372274320078885671L
+					type: "random"
+				}
+			]
+			subtitle: "Make a Drying Rack"
+			tasks: [{
+				id: "08CA7B617216D46A"
+				item: "hexerei:herb_drying_rack"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["378AF0E22829EC3C"]
+			description: [
+				"&bCrows&r are incredibly intelligent animals, able to &6harvest crops, pick up items, pickpocket villagers&r, and more."
+				""
+				"Occasionally crows will find their way to your island over time through the ftbskies:crow event as long as you have it enabled."
+				""
+				"Sneak right-clicking a tamed Crow will let you &6give it orders&r. you can give it a weapon to &6defend you with&r, and a helmet to protect itself with."
+				""
+				"The &bCrow Flute&r allows you to &6control multiple Crows at once&r, as well as &6set a block as the Crows' perch spot&r."
+			]
+			icon: {
+				Count: 1b
+				id: "hexerei:crow_flute"
+				tag: { }
+			}
+			id: "2C92C960EA1286BF"
+			min_width: 250
+			rewards: [
+				{
+					id: "7FAF0033C843394E"
+					item: {
+						Count: 1b
+						id: "hexerei:crow_flute"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4CB606D8BC866D75"
+					item: "hexerei:crow_ankh_amulet"
+					type: "item"
+				}
+				{
+					id: "530D1E0CD82664B5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "675BFE97874645B7"
+					table_id: 4372274320078885671L
+					type: "random"
+				}
+			]
+			subtitle: "Observe a Crow"
+			tasks: [{
+				icon: "botania:cosmetic_googly_eyes"
+				id: "735F32430655301E"
+				observe_type: 5
+				timer: 0L
+				title: "Observe a Crow"
+				to_observe: "hexerei:crow"
+				type: "observation"
+			}]
+			title: "Two Crows!"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C7D569C3AE118F9"]
+			description: ["The &bPestle and Mortar&r allows you to &6crush and blend items together&r."]
+			id: "378AF0E22829EC3C"
+			rewards: [
+				{
+					count: 8
+					id: "099A6E5D72020AC4"
+					item: "hexerei:seed_mixture"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5BCF43F23292444E"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3E6905B057C8F124"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "0D1D4EAE090F8444"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1074844756C86E73"
+					table_id: 4372274320078885671L
+					type: "random"
+				}
+			]
+			subtitle: "Make a Pestle and Mortar"
+			tasks: [{
+				id: "7FD2FE90AC13388E"
+				item: "hexerei:pestle_and_mortar"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3002421E4F9E5CC7"]
+			description: ["With this &bMixing Cauldron&r You can start making some &6tinctures and concoctions&r."]
+			id: "1C7D569C3AE118F9"
+			rewards: [
+				{
+					id: "4D1AEFB929B2D7E9"
+					item: {
+						Count: 1b
+						id: "hexerei:lava_bottle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50F360F04A8A6356"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FA596920D8BA7D9"
+					table_id: 4372274320078885671L
+					type: "random"
+				}
+			]
+			subtitle: "Double, double, toil and trouble"
+			tasks: [{
+				id: "548FCA0F964D32D0"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C7D569C3AE118F9"]
+			description: ["The &bWitch's set&r is &6highly enchantable&r!"]
+			icon: {
+				Count: 1b
+				id: "hexerei:witch_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "16C5FCE84691F4C8"
+			rewards: [
+				{
+					id: "54DA85E2BDCAB37F"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "cyclic:traveler"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BD2D85C7D3801BE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "41C466B9FD22AD2A"
+					item: "hexerei:large_satchel"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F25EF375C5AB9B6"
+					table_id: 4372274320078885671L
+					type: "random"
+				}
+			]
+			subtitle: "You're a wizard Harry"
+			tasks: [
+				{
+					id: "3E81887E984EA933"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01C65C3B4C9FF448"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E6619DFD2271DE4"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bit Breezy, Innit?"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C7D569C3AE118F9"]
+			description: ["The &bBlood Sigil&r can be placed in the Cauldron, and allows you to &6gather Blood by jumping inside&r."]
+			id: "1DFB50B4D5A7296B"
+			rewards: [
+				{
+					id: "0525D32F6966A98D"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:regeneration"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "141444F640858994"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "728702BAF2CBA179"
+					table_id: 4372274320078885671L
+					type: "random"
+				}
+			]
+			subtitle: "Pumice Stone"
+			tasks: [{
+				id: "62DF38A1DF5A003F"
+				item: "hexerei:blood_sigil"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1DFB50B4D5A7296B"]
+			description: [
+				"A witch is nothing without their flying broomsticks!"
+				""
+				"There are two types of &bBroom&r. Willow is slower and more precise, and Mahogany is faster."
+				""
+				"You can &6open it by sneak right-clicking&r, allowing you to apply upgrades."
+				""
+				"As you fly you Broom, its &cBroom Brush slowly breaks&r. You should keep an eye on its durability before going on flights."
+			]
+			icon: {
+				Count: 1b
+				id: "hexerei:mahogany_broom"
+				tag: { }
+			}
+			id: "48B93DB363CE1030"
+			rewards: [
+				{
+					id: "0156FD349CCFEBC1"
+					item: {
+						Count: 1b
+						id: "hexerei:broom_keychain"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "69E3CA31D6C0C5AA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3772BF2207E58B4C"
+					table_id: 4372274320078885671L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Hey, this ain't no Weapon!"
+			tasks: [{
+				id: "4670298B4957DD77"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexerei:willow_broom"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "hexerei:mahogany_broom"
+								tag: { }
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Taking Flight"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["48B93DB363CE1030"]
+			description: ["You can replace the Broom Brush with an &bEnhanced Broom Brush&r, which lasts longer and &6can be enchanted&r!"]
+			id: "6D1F261748DC8065"
+			rewards: [
+				{
+					id: "3788D5985846CA49"
+					item: {
+						Count: 1b
+						id: "hexerei:broom_netherite_tip"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42E9BF6075307083"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "259AC0699090D3EC"
+					table_id: 4372274320078885671L
+					type: "random"
+				}
+			]
+			subtitle: "Make an Enchanted Broom Brush"
+			tasks: [{
+				id: "7F21B82F317F3166"
+				item: {
+					Count: 1b
+					id: "hexerei:herb_enhanced_broom_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C7D569C3AE118F9"]
+			id: "6280430C389815A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70058063886F0DCE"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "30259C9F93E876F6"
+				item: "hexerei:infused_fabric"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"72E7A0F02EE0D8E8"
+				"09CA892EDEC1FB8D"
+			]
+			id: "3002421E4F9E5CC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "628D7AD522891101"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6DB21854CCFE28CA"
+				title: "Welcome to Hexerei"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1C7D569C3AE118F9"]
+			id: "78F8193D70CE6E6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19D96CE91D5D1498"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			tasks: [{
+				id: "607193D3D248F65C"
+				item: "hexerei:crow_ankh_amulet"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1DFB50B4D5A7296B"
+				"6280430C389815A1"
+				"78F8193D70CE6E6C"
+			]
+			id: "497607059D7D4FA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75AB9BD67FB0D3F7"
+				table_id: 4372274320078885671L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 3.0d
+			tasks: [{
+				id: "3B21AB71DDA1DD3C"
+				title: "Unlocks ElementalCraft"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+	]
+	title: "Hexerei"
+}

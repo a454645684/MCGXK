@@ -1,0 +1,167 @@
+{
+	icon: "minecraft:chest"
+	id: "642DE365EDB5C30A"
+	loot_crate: {
+		color: 38143
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Rare Loot Crate"
+		string_id: "rare"
+	}
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:golden_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:golden_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:golden_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:golden_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:golden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:saddle" }
+		{
+			item: {
+				Count: 1b
+				id: "mekanismtools:refined_obsidian_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:lava_bucket" }
+		{
+			item: {
+				Count: 1b
+				id: "constructionwand:diamond_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+		}
+		{ item: "mob_grinding_utils:ender_inhibitor_on" }
+		{ item: "minecraft:golden_horse_armor" }
+		{ count: 4, item: "darkutils:vector_plate_fast" }
+		{ item: "minecraft:oxeye_daisy" }
+		{ item: "botania:pure_daisy" }
+		{ item: "botania:mana_pool" }
+		{
+			item: {
+				Count: 1b
+				id: "create:filter"
+				tag: {
+					Items: { }
+				}
+			}
+		}
+		{ item: "trashcans:item_trash_can" }
+		{ item: "botania:overgrowth_seed" }
+		{ count: 2, item: "minecraft:blue_ice" }
+		{ count: 2, item: "minecraft:dispenser" }
+		{ count: 2, item: "minecraft:dropper" }
+		{ item: "thermal:slime_grenade" }
+		{ item: "thermal:redstone_grenade" }
+		{ item: "minecraft:tube_coral" }
+		{ item: "minecraft:brain_coral" }
+		{ item: "minecraft:bubble_coral" }
+		{ item: "minecraft:horn_coral" }
+		{ item: "thermal:glowstone_grenade" }
+		{ item: "thermal:ender_grenade" }
+		{ item: "thermal:earth_grenade" }
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:apprentice_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:apprentice_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:apprentice_robes"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:apprentice_hood"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "ars_nouveau:arcane_pedestal" }
+		{ count: 2, item: "ars_nouveau:enchanting_apparatus" }
+		{ item: "ars_nouveau:potion_melder" }
+		{ item: "ars_nouveau:potion_jar" }
+		{ count: 4, item: "pipez:improved_upgrade" }
+		{ item: "thermal:upgrade_augment_1" }
+		{
+			item: {
+				Count: 1b
+				id: "create:super_glue"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 4, item: "minecraft:quartz" }
+		{ count: 4, item: "minecraft:lapis_lazuli" }
+	]
+	title: "Rare resources"
+}

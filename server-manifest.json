@@ -3,7 +3,7 @@
   "author": "CF",
   "version": "1.0",
   "description": "",
-  "fileApi": "https://gitee.com/RuoShui_2/mc-integration-package-update/raw/master",
+  "fileApi": "https://github.com/a454645684/MCGXK/tree/main",
   "files": [
     {
       "path": "config/advanced_solars-common.toml",

@@ -1,0 +1,14 @@
+minecraft:overworld
+solarcraft:radiant_land
+mythicbotany:alfheim
+builders_dimension:builders_dimension_amethyst
+builders_dimension:builders_dimension_orange_concrete
+compactmachines:compact_world
+minecraft:the_nether
+overworldmirror:overworld
+twilightforest:twilight_forest
+arsomega:demon_realm
+builders_dimension:builders_dimension_white_concrete
+minecraft:the_end
+builders_dimension:builders_dimension_purple_concrete
+builders_dimension:builders_dimension

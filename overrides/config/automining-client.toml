@@ -1,0 +1,23 @@
+
+[General]
+	#Disables cheaty settings.
+	simpleMode = true
+	#Blockattackingdelay
+	delay = 1.0
+	#The range you will mine in
+	showLeftCount = 0.0
+	#Prevent tools from breaking
+	useDifferentTiers = true
+	#Switches Tool according to targeted Block
+	switchTool = true
+	#Break non tool blocks like glass
+	useTags = true
+	#The level the hunger will be keeped at.
+	showTag = 3.0
+	#Toggles the mining to only one block/layer
+	saveMining = false
+	#Eat epic food like Golden Apples
+	epicFood = false
+	#A list of tags, that will be ignored in the tag-search. Don't miss the " before and after the tag
+	ignoredTags = []
+

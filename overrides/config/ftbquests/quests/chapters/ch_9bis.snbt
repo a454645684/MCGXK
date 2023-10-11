@@ -1,0 +1,3505 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch_9bis"
+	group: "6386AD7111B9BD02"
+	icon: "rftoolsbase:machine_frame"
+	id: "6BDF214F9D190D38"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["35FE7B156A416521"]
+			description: ["Every machine or device needs some frame, if you will. These do nothing on their own, but are a ubiquitous crafting ingredient."]
+			id: "3B8FE588BB137295"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6472A0D629593142"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10CD702FACBE0BBD"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CB9849FA4EAAA9C"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "65BAA65EA65F3AFA"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.75d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			description: ["The more powercell you put for the multiblock, the more energy will be stored."]
+			id: "1C0DB5CDE08C77D0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "69602F5D7C6CABF6"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44CCA6EEF4C51E7D"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5076876588BA1B54"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "0C8E1EF1A08A13DE"
+				item: "rftoolspower:cell1"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1C0DB5CDE08C77D0"
+				"5EC2E508FAFBF999"
+			]
+			id: "14FFFA2AA5D8CEAC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B70EB557FC9AC97"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B9C8FE46E5A1238"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B7926BF01895160"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "54CDF799BC30AB4F"
+				item: "rftoolspower:cell2"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["35FE7B156A416521"]
+			id: "1FA60A7D153B850E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7447788E33DEE4E1"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50FCC3AC293D3D4D"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C317A074A2171A7"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "49F6A5296AA9D8F5"
+				item: "rftoolspower:power_core1"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["35FE7B156A416521"]
+			id: "5EC2E508FAFBF999"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "317C02A4B94F8A38"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "015E1B5B6F04EA02"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57B142375E291E87"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "0FD924C0211DD113"
+				item: "rftoolspower:power_core2"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["35FE7B156A416521"]
+			id: "4F9C02E738E82240"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "112E4E6C0A84046B"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58D3E83B3AF29B27"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F552DD85B15174C"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "0DB578834151A7A4"
+				item: "rftoolspower:power_core3"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4F9C02E738E82240"
+				"14FFFA2AA5D8CEAC"
+			]
+			id: "671971636863D7E5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41781FD0E8ED5A42"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A920D0EC69C4C9C"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22EA047237F96ED1"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "54DA70A97CABE4A9"
+				item: "rftoolspower:cell3"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"62125E43C7D92E78"
+				"5EC2E508FAFBF999"
+			]
+			hide_dependency_lines: true
+			id: "6FFEE10893876C7E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "39713685F35D335B"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C241F31BA8DFC79"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35153BBAAD5771C5"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1B74619DA944856E"
+				item: "rftoolspower:dimensionalcell"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6FFEE10893876C7E"
+				"4F9C02E738E82240"
+			]
+			hide_dependency_lines: true
+			id: "5C20688402944B47"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "618091997107416C"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B8205C13BA95B00"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B72E0113ADD6DA1"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "05907EEFA6A171D3"
+				item: "rftoolspower:dimensionalcell_advanced"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3B8FE588BB137295"
+				"1FA60A7D153B850E"
+			]
+			description: [
+				"&4Powercells&r are used to create a wireless network for your energy"
+				""
+				"Depending on the cell it will be more or less effective."
+				""
+				"How does it work? take a &cCell Card&r and put it in a &1Powercell&r's first slot and it will have a number on it."
+				"That number corresponds to your network. the second slot is to copy your network to another cell, take the newly created card and put it in another &1Powercell&r."
+				""
+				"Beware, players can copy your network id and put it in their own &1Powercell&r."
+			]
+			hide_dependency_lines: true
+			id: "62125E43C7D92E78"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0494F3317EE645EE"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "474A396B1601475F"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "410E4C33CA434836"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Wireless Energy"
+			tasks: [{
+				id: "03D6DFD7215FA9DD"
+				item: "rftoolspower:dimensionalcell_simple"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			description: [
+				"The &3Infuser&r can \"upgrade\" your &bRFtools&r machines"
+				""
+				"They will be faster ! But be aware, it does consume a lot more energy and you have to upgrade with those &1Dimensional Shards&r"
+			]
+			id: "54E011FE5DF138FB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D3C8393A62D6E23"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "501666A036112608"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A47AAA7EC79C1DE"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.3d
+			tasks: [{
+				id: "51A0D68BC0972357"
+				item: "rftoolsbase:machine_infuser"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			description: [
+				"So as we saw on the last quest"
+				""
+				"Just put your &bInfused&r &6Blazing Rods&r and generate some RF !"
+			]
+			id: "41874C23EF0F8113"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "57D376BC8EEFBFB3"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16A07525E1479BD0"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74A46971C7A564A1"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Generates RF with &6Blazing Rods&r"
+			tasks: [{
+				id: "17AF195D5076FA9E"
+				item: "rftoolspower:blazing_generator"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 2.75d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			description: [
+				"With some energy, you will be able to craft some &6Blazing Rods&r"
+				""
+				"Just put 9 of them and thoses will be transformed"
+			]
+			id: "417F4B83BD968772"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B7118CD368AD330"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "129E4E5D5983A5ED"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5ED8BFC4B75056B4"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6FB8B458A70236E1"
+				item: "rftoolspower:blazing_agitator"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 1.75d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			description: [
+				"Once you have crafted the &6Blazing Rods&r you can infuse them with some &bDimensional Shards&r"
+				""
+				"Put one rod and shards and let the recipe do it's job."
+				""
+				"Once that is done this &bInfused&r &6Blazing Rod&r will generates more RF than a singular &6Blazing Rod&r"
+			]
+			id: "759ACC878C3E50CB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "705E02D4D86CFAB2"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F9519F96D802632"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08310D476CC77DB3"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4FC61D677E892C0D"
+				item: "rftoolspower:blazing_infuser"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			id: "7641F40575DBF30C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C4E2FEA32EC71C9"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56D0DD2096BA2582"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "562B7B90A0F2A310"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1A9D590506EA1823"
+				item: "rftoolspower:ender_monitor"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 2.75d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			id: "75A6905ABDF07648"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40238AC969421879"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7913CDC6FE9755E5"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22B788E21B1BF7DC"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2FF97F5203809C41"
+				item: "rftoolspower:pearl_injector"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			description: ["Throw an Ender Pearl at an Endergenic Generator at just the right moment and energy will be produced."]
+			id: "1E35D0500C2D5866"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F17B7FF5C1362DD"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7899EB633678FA8A"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AB59062A21BEEE2"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Endergenic Power Generation"
+			tasks: [{
+				id: "1C832AA2C120E88D"
+				item: "rftoolspower:endergenic"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 1.75d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			id: "3CD10BAD22AE1F8B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "10A6A7FAB8EAE82F"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BF8E5FA61576F3E"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B46B25B8E3EF00D"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "65AE09ED864EAAFA"
+				item: "rftoolspower:coalgenerator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			description: [
+				"Here is the &3Builder !&r"
+				""
+				"Build some cool stuff with it ? You can!"
+				""
+				"Just put the wanted shape card in it."
+				""
+				"How does it work? shift Right Click with a shape card in the main hand and select two blocks that are opposed to each other, you do not want to select a radius of two blocks... unless that's what you really want of course."
+			]
+			id: "1FD4F995B3B12748"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "32320F95782D4B2D"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F26EC0D95270CEC"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B32746D02D80992"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.3d
+			tasks: [{
+				id: "75A60AA28BE0FB2E"
+				item: "rftoolsbuilder:builder"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			description: [
+				"In order to create a &bShield&r you must use those &5Shield Projectors&r"
+				""
+				"Each projector has a better protection depending on the tier you're using."
+			]
+			id: "506F8F56216F6B7C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "428FD019579FCA88"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "368AC12CF3A92076"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "472B840F6EF30679"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "14586E68BBE53138"
+				item: "rftoolsbuilder:shield_block1"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["506F8F56216F6B7C"]
+			id: "28418CDF7F5F1C28"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BA574FAF69A7B10"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AB3F8AAF461DFB3"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "271F7ABC1DE52611"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "074E52C78CF28775"
+				item: "rftoolsbuilder:shield_block2"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["28418CDF7F5F1C28"]
+			id: "2AC1D719BF9B088C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4043B2925ED74889"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5960B4568EB95556"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2275D67E88291B83"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "520AE19CCF72A158"
+				item: "rftoolsbuilder:shield_block3"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2AC1D719BF9B088C"]
+			id: "0D77CA9143A4A9A4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2EDB7E087DDB4705"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FB64A84F8514C94"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "466A97D915C0CC51"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3EF7ADD94FA4191C"
+				item: "rftoolsbuilder:shield_block4"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			description: [
+				"Three different tiers of &bCrafters&r"
+				""
+				"Each Crafter has twice the capacity for crafts of the previous tier."
+				""
+				"Tier 1 : Two Crafts"
+			]
+			id: "73522C1F2133E416"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D8CD973AE61AC9C"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73D38320440D2B7D"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "002423C202F603AB"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "21FA21A71BB0B6AD"
+				item: "rftoolsutility:crafter1"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["73522C1F2133E416"]
+			description: ["Tier 2 : Four Crafts"]
+			id: "5A2B5A127662EDF6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "07EB2B6322350E80"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DB44EFFD558C2D3"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5648DCFBD1B31E60"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "30A3B3C044BBAFD0"
+				item: "rftoolsutility:crafter2"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A2B5A127662EDF6"]
+			description: ["Tier 3 : Eight Crafts"]
+			id: "61C77F8185B1F2AF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "661104677053BD05"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B04696441DD3764"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "015417294D583C1B"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5799FBFF96DB75A3"
+				item: "rftoolsutility:crafter3"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			hide_dependency_lines: true
+			id: "610EC493F0A330D3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "664CED44F8A60FF2"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17D1565DF59C84B1"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13A2FB508C504596"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4360599187267B7B"
+				item: "rftoolsutility:matter_beamer"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			description: [
+				"In Order to spawn mobs you will have to craft 3 beams."
+				""
+				"The &cSyringue&r has to be entirely filled with mob essence (Note that Dragons are not spawnable)"
+				""
+				"Each beam has to be filled with one single item."
+			]
+			hide_dependency_lines: true
+			id: "0C3AF28CABEB9B5E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "153FF31D30B57475"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02C3F037F749A322"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "046D82632E0C8F14"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Spawning mobs"
+			tasks: [{
+				id: "2D62D1C0C26A7B03"
+				item: "rftoolsutility:spawner"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			id: "147FEDFCEDC2F421"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62C80F8A89647475"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "598134662BA11351"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58D38F164BCDBB7A"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6019F22491A77E91"
+				item: "rftoolsutility:syringe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			id: "1D3BDCB9625069E4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "296BB1DF628E9FDD"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1324FE6878471C95"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10032A88CCA783D4"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "6A9C243E2D8ECC9D"
+				item: "rftoolsutility:environmental_controller"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7939D54C4DAB273F"]
+			id: "75A31500FCAF79B9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1FC5F62940AB31CB"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3075B0891A996661"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7822DC2016C9D806"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "69DFDC6C6F551F3C"
+				item: {
+					Count: 1b
+					id: "rftoolsutility:charged_porter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["75A31500FCAF79B9"]
+			id: "4A40B9000AAADF7F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1D30ED64CD3A73FE"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52C7825B8387D4BA"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48598026DA3F35E2"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1465C1AEF67177A2"
+				item: {
+					Count: 1b
+					id: "rftoolsutility:advanced_charged_porter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			hide_dependency_lines: true
+			id: "7939D54C4DAB273F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "174CE3141FCD8B58"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14A08DCAA99C837A"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13FF0C1D36F2E139"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "79FDE88F442D4C43"
+				item: "rftoolsutility:matter_transmitter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			hide_dependency_lines: true
+			id: "543D94A65DEEA1F1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "31C7AEE5398259D8"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52DFDEBAFA4209D3"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DF375CCAF3429F4"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2D4BC72A7C9090D3"
+				item: "rftoolsutility:matter_receiver"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			hide_dependency_lines: true
+			id: "6907290F630E49CD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "399BF674CDBDD664"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1714DB6F81A82D0A"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6832214F4348505E"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "65A7B3E293D515A9"
+				item: "rftoolsutility:dialing_device"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1FD4F995B3B12748"]
+			description: [
+				"This quest will adk you to craft all &2Shape Cards&r for the &6Builder&r"
+				""
+				"I suggest you check on the &bRFtools&r guide to see what they do.... Unless you wanna have a surprise, it's up to you"
+			]
+			id: "1D83173640E83494"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A7AA9BFD83EB141"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2056DB597BA5407C"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1042A0E8163A828A"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "1617F0A4023B4401"
+				item: "rftoolsbuilder:shape_card_def"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1D83173640E83494"]
+			id: "2822710796B06DB4"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "171A64A9EBD05BB7"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2312F0404969D3D7"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B13B403BEC50F6F"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "264E27B37FA24854"
+				item: "rftoolsbuilder:shape_card_liquid"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["1D83173640E83494"]
+			id: "75603678FBBB0CC7"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "12B8E0B5EF842879"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7985B46A7C4A1079"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BBF9A44A05029B7"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "760A6898C6A277C0"
+				item: "rftoolsbuilder:shape_card_pump"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["1D83173640E83494"]
+			id: "79721AB6B9F3B9AC"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "446A927CEC83E6FA"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BE688A807849BFA"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E2AEB172EF5C29C"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5913A654E45C9307"
+				item: "rftoolsbuilder:shape_card_pump_clear"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["1D83173640E83494"]
+			id: "01190A4EF71DECCD"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "318E745CA2772F0F"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F01DAA4E3483785"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A63E654161BA9DF"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "660EAD6300B7B808"
+				item: "rftoolsbuilder:shape_card_quarry"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["1D83173640E83494"]
+			id: "55AECFF44183DD90"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "664BFD429ED5B64C"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C208787C01C106B"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1149E414DCFC2250"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "753B421638ECAD12"
+				item: "rftoolsbuilder:shape_card_quarry_clear"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["1D83173640E83494"]
+			id: "72979A2879752B54"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "542388001AB4A422"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "068096ACE2A0553C"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54DFCEFBF26E54CC"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4B8D8128489ED6B7"
+				item: "rftoolsbuilder:shape_card_quarry_clear_fortune"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["1D83173640E83494"]
+			id: "7BA0626440925B5D"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "49EE989D37D9E1CA"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76CFE53E83B5A69E"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A853B9A7665BD29"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3A110722B11907DF"
+				item: "rftoolsbuilder:shape_card_quarry_clear_silk"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.75d
+		}
+		{
+			dependencies: ["1D83173640E83494"]
+			id: "193BEE1631239648"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C4355AE923CDCB8"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C8129C608F8E25B"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3377D3B3A49DFBB9"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3CE82DA4B51892D4"
+				item: "rftoolsbuilder:shape_card_quarry_fortune"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["1D83173640E83494"]
+			id: "01CFB9B8929229F5"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "51F3C03E4E831A2F"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73E8B5658623C827"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4162EFA37D2FD2DB"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "239518E7FFF2CAB1"
+				item: "rftoolsbuilder:shape_card_quarry_silk"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.75d
+		}
+		{
+			dependencies: ["1D83173640E83494"]
+			id: "4E6C44980E0E46EF"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "457AAB9BDA4AE9D1"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11ECEF61F7DBFEF0"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40462C54ECA3E69E"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "776CB65D2063006C"
+				item: "rftoolsbuilder:shape_card_void"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.25d
+		}
+		{
+			dependencies: [
+				"5E43D8523D2DF728"
+				"3B8FE588BB137295"
+			]
+			id: "5253C3780E90C914"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "35A758B940340F01"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D00E54173EAE669"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "491855890E6E81DA"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "6E19F75A7874AB0D"
+				item: "rftoolsutility:module_template"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5253C3780E90C914"]
+			hide_dependency_lines: true
+			id: "1EC107BB01099867"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0FDF9BC9AB5B6BF5"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3886714EB040A004"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EA62301EAFCAA91"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "18EF3C68920DA7D5"
+				item: "rftoolsutility:moduleplus_template"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1EC107BB01099867"]
+			id: "312817F8B56A1B53"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19A7524DF7421D9F"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "681A60590BA9B339"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05C1665CC2F01AAC"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4DCF8224F96A1C1F"
+				item: "rftoolsutility:blindness_module"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["5253C3780E90C914"]
+			id: "75419FB8289851C2"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "463E7A3D41E186EA"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D89CB33B1557762"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71FE2E8B0CBF14FE"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1144FA12A65D78BA"
+				item: "rftoolsutility:featherfalling_module"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["1EC107BB01099867"]
+			id: "45368D519862033E"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C3A560454AC8AB3"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61FDBC802F5F8DDE"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F58A44D39BFA28A"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "501AA921F19376BC"
+				item: "rftoolsutility:featherfallingplus_module"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["5253C3780E90C914"]
+			id: "7432AA3AB395BED6"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E020115BBDEED01"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21A8139930BD3C56"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F659E78DC55C751"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3E4A107BB7EACF73"
+				item: "rftoolsutility:haste_module"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["1EC107BB01099867"]
+			id: "6C1ABFF99FCE0C96"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "78CECFF68A69AAD3"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "164E8DA84EBE20F6"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AA1378E64CA1E2E"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "53F9B9705DBE404E"
+				item: "rftoolsutility:hasteplus_module"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.75d
+		}
+		{
+			dependencies: ["1EC107BB01099867"]
+			id: "6057D7FFE7D286EF"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "04158D54E4E4AC2F"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69B85420687EDA29"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1ECF30EAE33EA46A"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "55D21AF128694D11"
+				item: "rftoolsutility:flight_module"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.25d
+		}
+		{
+			dependencies: ["5253C3780E90C914"]
+			id: "351912242638DFA1"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E75859218AA39C5"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "175695C251DB0221"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D322722D53C68A9"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "56E810DB36025E4D"
+				item: "rftoolsutility:glowing_module"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.75d
+		}
+		{
+			dependencies: ["5253C3780E90C914"]
+			id: "1C37158297FCA9EA"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7D4629622218FFB5"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27CF431D6268AA58"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59C00AAF2715AFF1"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "58BFEBA7354C038E"
+				item: "rftoolsutility:luck_module"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["5253C3780E90C914"]
+			id: "6CCC5A6036754B1A"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F2FC7D8BC1C1179"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15F37C780D38EB62"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "698EAE1BAE01362C"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "02C9F3EF05C03524"
+				item: "rftoolsutility:nightvision_module"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["1EC107BB01099867"]
+			id: "0D713B69A0D0E3D9"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "64D29EE06EC79BA8"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "779E01BEE1DA4239"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CFFC168837BD293"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2A6AB28CDD07CE14"
+				item: "rftoolsutility:noteleport_module"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["1EC107BB01099867"]
+			id: "1C523C9F5D37A475"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "093B7C7728927556"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15DB3F9E2B9436BC"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B1EF06DBD805007"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "005C39DFC348FE09"
+				item: "rftoolsutility:peaceful_module"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["5253C3780E90C914"]
+			id: "3AA3EEA9553DA6C4"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "76730733DB8936E7"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D54C1F9F690FCD9"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13D22AF881726B6E"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "35841BFFDCF2593F"
+				item: "rftoolsutility:poison_module"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["5253C3780E90C914"]
+			id: "7EDE6570BAFECB18"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08F4385C956809BA"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CB0420A598C0845"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C5D250112A22BF3"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6D2D02AEC4843F4F"
+				item: "rftoolsutility:regeneration_module"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["1EC107BB01099867"]
+			id: "66DD4A1237510EE1"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CA3B71B9FA7F49E"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02F4E52E38D6B22C"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FD6131A0EDFE9B8"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0125AA53DF860ACC"
+				item: "rftoolsutility:regenerationplus_module"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["5253C3780E90C914"]
+			id: "4CDC10687B76DF18"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D1B46EA60DEC8F7"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E377C4251D8083B"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A9BEC0E14279C61"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "34C3C0017AD5A714"
+				item: "rftoolsutility:saturation_module"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.75d
+		}
+		{
+			dependencies: ["1EC107BB01099867"]
+			id: "481A4B59B630A9C6"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "64259EC4C65F3E13"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08B9236DD0269DB8"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DCB2DB65889BEED"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0D99FDB0CF328587"
+				item: "rftoolsutility:saturationplus_module"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["5253C3780E90C914"]
+			id: "0913341DF5674CA7"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E589A6635AA4AEB"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37958AD645469042"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FF62A412285584B"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "406F43F6C737D02A"
+				item: "rftoolsutility:slowness_module"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["5253C3780E90C914"]
+			id: "28BA9C3897F234D9"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "61FB79B0E33DDD5C"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31709658FADDC255"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "040E960CC1D5F89B"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "14F2CBD0723B309F"
+				item: "rftoolsutility:speed_module"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["1EC107BB01099867"]
+			id: "53D7821AD9731693"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1435CB8A0129F6E8"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2386F65BABD12B0F"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73705698484B049A"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0DE45E12073399C9"
+				item: "rftoolsutility:speedplus_module"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["1EC107BB01099867"]
+			id: "72730B651BDED4ED"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A6B32EE1D0FA7E8"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C1533C3EEFE8546"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A6502C5B72A0FCB"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7FAF7FA6EC2BA951"
+				item: "rftoolsutility:waterbreathing_module"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.75d
+		}
+		{
+			dependencies: ["5253C3780E90C914"]
+			id: "7A01916BFC56B777"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2BF164E86D06FBEB"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2111BE070B57BBC6"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27485450AE38AC7D"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2C67D3690AEFCA20"
+				item: "rftoolsutility:weakness_module"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			id: "15B6CF9B41E10B17"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4766015B43C85647"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F8CFA410948CAED"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "032FD83678AE305D"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "493C1B915398535F"
+				item: "rftoolspower:powercell_card"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C58971904F74578"]
+			id: "24B4AB922FCFA956"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A72DB08DC88B991"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73986139BA07F73E"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BF64B8CA7A28F10"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "3A621378D23EF57D"
+				item: "rftoolscontrol:cpu_core_500"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["24B4AB922FCFA956"]
+			id: "4D0FD2C51E5290BA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "30BED27312EB8E8C"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E559F1C3E862083"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05DC9559F635AEE4"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "3B429DFC5FA77D1E"
+				item: "rftoolscontrol:cpu_core_1000"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 5.75d
+		}
+		{
+			dependencies: ["4D0FD2C51E5290BA"]
+			id: "14FF9B95901366D2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E5F0188EC7005B0"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33918B3BE7408EB7"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12CEFC2CA554B5AC"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "37D7B9E42A3A37C5"
+				item: "rftoolscontrol:cpu_core_2000"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["2C58971904F74578"]
+			hide_dependency_lines: true
+			id: "7D3B3254ECA7A7EA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "432BFA52E82F7896"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "073F32BF57211476"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26E198AD7C94485A"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "25B6C15D99B882A6"
+				item: "rftoolscontrol:ram_chip"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["2C58971904F74578"]
+			hide_dependency_lines: true
+			id: "663950C76603F21A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14E0CDE213818823"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50F8727FDD4DF65A"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D1814163BF00583"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "05928F512E2012C4"
+				item: "rftoolscontrol:network_card"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["663950C76603F21A"]
+			id: "047D75CA603FCA03"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1AAA3A47B4C3BAC7"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C4A75A0ADD60543"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48AA3EF34579B0A0"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "376D7CE6C12B0B86"
+				item: "rftoolscontrol:advanced_network_card"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 5.75d
+		}
+		{
+			dependencies: ["2C58971904F74578"]
+			hide_dependency_lines: true
+			id: "257380C02320BAC0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A7DCC71FBDD531F"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27E9F74883529186"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DEAD4F3CBCCB309"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "29791027B56F49A6"
+				item: "rftoolscontrol:graphics_card"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			id: "2C58971904F74578"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "667F8C2F6E76FBF6"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D0FBA111D8B9C99"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E4CBC4FDEFFC82D"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6FE3BAFD9F868CB9"
+				item: "rftoolscontrol:card_base"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["35FE7B156A416521"]
+			id: "3C396B2CA650B113"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "358F62293DC12D1D"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4126E50E21641A79"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6ACB349CFCEB44A1"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0895B47742D443A4"
+				item: "rftoolsutility:analog"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["35FE7B156A416521"]
+			id: "63883D19838B16CF"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2CEA7999ADE9C535"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "767D7C7FE7DFD4A4"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A3F0A5CA1A607AE"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "56B20AD0A25D30B3"
+				item: "rftoolsutility:counter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["35FE7B156A416521"]
+			id: "63E421301E1AB115"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A0042C6E3AA6467"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59A4852456B0A539"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B3FEF4FEB173CCA"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0F754832BCBEC7A3"
+				item: "rftoolsutility:digit"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["35FE7B156A416521"]
+			id: "5E96368A5FC873F6"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63611F2CAB4A60BA"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "394E47473D9B15DD"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4165EEFBA49F902D"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "26BAD1CCFF7AA86E"
+				item: "rftoolsutility:invchecker"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["35FE7B156A416521"]
+			id: "757579CCDCAA02E4"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5AB062354DEBE402"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "057EF2783FF8B1CE"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "514F08AF15EDB81D"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1BB7C6464292B432"
+				item: "rftoolsutility:sensor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["35FE7B156A416521"]
+			id: "140DE4772968F7A8"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F95A054EC1EED3D"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C2E2381A5CE7F8E"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DDFF496BC1B3A82"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "76650DD1B23DE17D"
+				item: "rftoolsutility:sequencer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["35FE7B156A416521"]
+			id: "69B6B18BCDF8B70D"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E04507CDBD4E7D6"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AA3804142E1AC5F"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "570A9C708BC79CE3"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "075CA750D0CA441D"
+				item: "rftoolsutility:logic"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["35FE7B156A416521"]
+			id: "554118A37A26B57F"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "12161A48B5DA052D"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D52AF77E8C2E840"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75D14D3B89665B20"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "371DAF65EB7AE8EC"
+				item: "rftoolsutility:timer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["35FE7B156A416521"]
+			id: "498D8950B60643E6"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "060A06A0095F69F8"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0409E6F69220A41F"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71F55ACEB9E23011"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3B8E435006A88850"
+				item: "rftoolsutility:wire"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["35FE7B156A416521"]
+			id: "3D07F76FF02D9FC6"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A41CB44793E402B"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B9905C2FD2E57E4"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66E91BD085AEFE58"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0761435A9520E361"
+				item: "rftoolsutility:redstone_receiver"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["35FE7B156A416521"]
+			id: "6F00288B9FE67DF7"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7432E8829A6AEB4C"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BD01881C613AC84"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D4E78EFD80572C7"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5B29B90DC3111FC8"
+				item: "rftoolsutility:redstone_transmitter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["417F4B83BD968772"]
+			id: "28498779A63FA059"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "304E9099AC0702D6"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "733BEE74B68D8AE5"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40ED979E9F5680FD"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2C18B1C9E9F0E973"
+				item: "rftoolspower:blazing_rod"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["35FE7B156A416521"]
+			description: [
+				"This &3Wrench&r can interact with a lot of stuff in the mod &6RFtools&r"
+				""
+				"When you right click with it on a &6RFtools&r machine you can setup the &binput&r and obviously the &4output&r"
+				""
+				"But when you &nshift right click&r, you break the machine instantly, so you better use that unless you pickaxe is unbreakable or has a very large durability"
+			]
+			id: "00A63DC5CACB32D7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "12AAD884874F4C97"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "197BA0C2610903D2"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "791393DC739BEBE1"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "5980B3847A5B169A"
+				item: "rftoolsbase:smartwrench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.25d
+		}
+		{
+			dependencies: ["35FE7B156A416521"]
+			id: "2E012C406BEC6CD7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D6838490F397B9F"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F5C55BA8A728702"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48FB39A45BBBD8B9"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "49D32A0C76778A3E"
+				item: "rftoolsbase:infused_enderpearl"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.75d
+		}
+		{
+			dependencies: [
+				"35FE7B156A416521"
+				"3B8FE588BB137295"
+			]
+			id: "5E43D8523D2DF728"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "025641B8496CF7BC"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2057F2C1D76E4B1D"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55A5843D8C91250C"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "324B4405F4182C96"
+				item: "rftoolsbase:infused_diamond"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["42F2F67FE0631408"]
+			id: "35FE7B156A416521"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3740C8FA9BD30866"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "377D27A432D0F50A"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "616D6CF715CEDD11"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "660A30AFA41E1C0A"
+				title: "Welcome to rftools"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			id: "37C040887B212E0B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A4828A736B45733"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B60ADBEFE8F31AA"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11B6B88FF2034EC0"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7E769CC72EFD0ED8"
+				item: "rftoolsdim:dimension_editor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			id: "16FC97B5E0ADAE0F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D3E2D1AA06F36DF"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F24C63B00714EF7"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07E1625ABFE07B35"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2F690EF995E7B7D5"
+				item: "rftoolsdim:dimension_builder"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			id: "19D5EDC7E8655E87"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33E5CDD86E6FD7F4"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E481C8A4C0901CC"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "508FA879C4871231"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2796165C605296B3"
+				item: "rftoolsdim:enscriber"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			id: "513CBA370CCDCF82"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5CCF227901539CE4"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17B0AF0663BB5E60"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15D8212B4515B17E"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2BE2B70F9585EC09"
+				item: "rftoolsdim:knowledge_holder"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			id: "5C4DD29AB16ADE19"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "192F1C59EA57DCF2"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D5B11A0CC17F53C"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F316A723DA6B562"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "00FCC1EA7E1132E6"
+				item: "rftoolsdim:dimlet_workbench"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3B8FE588BB137295"]
+			id: "46548CF0A6A3C71A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B6E9C4B95FF6F73"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C860A23523A58ED"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "554B057C42317B1F"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0CA595FC4343019D"
+				item: "rftoolsdim:empty_dimension_tab"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["46548CF0A6A3C71A"]
+			id: "2E55CBD5B64C0DA4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0C78C1E3E81CFEEC"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5734BA5D562D4C36"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DE23E4C689298C4"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1540E1C5B0DBC107"
+				item: "rftoolsdim:common_essence"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["46548CF0A6A3C71A"]
+			id: "230338E743B89B89"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "28CEE77294D670F5"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05C4FFC8E48D8A12"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "684995E9296A3498"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6A2127F5544C29CE"
+				item: "rftoolsdim:rare_essence"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["46548CF0A6A3C71A"]
+			id: "3BF0C156633D71AB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02DB3B1D22F44705"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EFA1867B71FBD9F"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48DCCA56FC49FF41"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "76575670D9CB3AC8"
+				item: "rftoolsdim:legendary_essence"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"19D5EDC7E8655E87"
+				"37C040887B212E0B"
+				"5C4DD29AB16ADE19"
+				"513CBA370CCDCF82"
+				"16FC97B5E0ADAE0F"
+				"46548CF0A6A3C71A"
+			]
+			id: "1CDE7BE2A91C097F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "47436D8E5C5F91E1"
+					table_id: 2457200710132144954L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73A8F46854AEADDA"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61BD9661762F6066"
+					table_id: 8453540496955162906L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 3.0d
+			tasks: [{
+				id: "7F3B59DAFB72B041"
+				title: "Unlocks ProjectE"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+	]
+	title: "Rftools"
+}

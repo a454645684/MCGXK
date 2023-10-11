@@ -1,0 +1,10 @@
+[ {
+    "dimension": "minecraft:overworld",
+    "mod": "resourcefulbees",
+    "mincount": {
+      "amount": 2,
+      "mod": "resourcefulbees",
+      "perchunk": false
+    },
+    "result": "deny"
+  }]

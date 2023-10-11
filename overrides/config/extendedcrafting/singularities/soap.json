@@ -1,0 +1,11 @@
+{
+    "name": "Gamers weakness",
+    "colors": [
+      "d897f9",
+      "d1f3fd"
+    ],
+    "ingredient": {
+      "item": "forbidden_arcanus:purifying_soap"
+    }, 
+"inUltimateSingularity": true
+  }

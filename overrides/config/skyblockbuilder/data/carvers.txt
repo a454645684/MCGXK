@@ -1,7 +1,0 @@
-minecraft:canyon
-minecraft:cave
-minecraft:cave_extra_underground
-twilightforest:highland_caves
-minecraft:nether_cave
-biomesoplenty:origin_cave
-twilightforest:tf_caves
